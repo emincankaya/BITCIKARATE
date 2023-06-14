@@ -1,5 +1,6 @@
 function fn() {
     var env = karate.env; // get system property 'karate.env'
+
     karate.log('karate.env system property was:', env);
     if (!env) {
         env = 'dev';
@@ -12,10 +13,14 @@ function fn() {
     }
     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
     config.generalToken = generalTokenResult.response.Token;
+    var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2', config);
+    config.generalToken2 = generalTokenResult.response.Token;
     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
     karate.configure('headers', {'Content-Type': 'application/json'});
     karate.configure('headers', {'Cap': '-1'})
+
+
 
 
 

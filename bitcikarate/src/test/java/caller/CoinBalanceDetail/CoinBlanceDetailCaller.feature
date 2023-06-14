@@ -4,7 +4,7 @@ Feature: CoinBalanceDetail
     Given url baseURI
     And path 'api/Coin/CoinBalanceDetail'
     And header apitoken = apiToken
-    And header authorization = generalToken
+    And header authorization = generalToken2
 
 
   @coinbalancedetail_caller
@@ -13,6 +13,6 @@ Feature: CoinBalanceDetail
     And request RequestBody
     When method post
     Then status 200
-    * print response
-    * print RequestBody
+  #  * print response
+  #  * print RequestBody
 

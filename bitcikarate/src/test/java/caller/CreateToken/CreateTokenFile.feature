@@ -12,8 +12,15 @@ Feature: Create Token Caller
     And request RequestBody
     When method post
     Then status 200
+  @create_token_caller2
+  Scenario: Create Token
+    * def RequestBody = {"EmailOrPhone":"TestTeam20@test.com","Password":"Test1234*","SmsMobileKey":"","AuthenticationCode":"","LanguageCode":"en"}
+    And request RequestBody
+    When method post
+    Then status 200
 
 
 
-    Scenario: Print General Token
-      * print "generalToken:  ", generalToken
+
+  Scenario: Print General Token
+      #* print "generalToken:  ", generalToken
