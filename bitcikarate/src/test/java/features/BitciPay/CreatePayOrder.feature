@@ -6,7 +6,7 @@ Feature: User can create payment
 	* def payCodeResponse = callonce read('classpath:features/BitciPay/CreatePayCode.feature')
 	* def payCode = payCodeResponse.response.Data.TransactionCode
 
-
+  @bitciPayInfo
   Scenario: User should be able to get BitciPayment code
 	* path 'api/CryptoPay/pay'
 	And header authorization = generalToken
@@ -16,6 +16,7 @@ Feature: User can create payment
 	* status 200
 	* assert response.Data.TransactionCode == payCode
 
+  @bitciPayOdeme
   Scenario: User should be able to Pay using BitciPay
 	* path 'api/CryptoPay/pay'
 	And header authorization = generalToken2
@@ -44,6 +45,17 @@ Feature: User can create payment
 	And def codeCheck = status == 'PayOrderStatusEnum.Completed' ? "true" : "false"
 	And def payOrderStatusEnumCheck = response.PayOrders[0].TransactionCode == payCode ? "true" : "false"
 	* match codeCheck == payOrderStatusEnumCheck
+
+  Scenario:Kullanıcı ödeme yaptığında bakiyesi ödeme miktarı kadar azalmalı
+	* def balance = call read('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller2')
+	* def balanceBefore = balance.response.CoinBalance
+	* def paymentforAmount = call read('classpath:features/BitciPay/CreatePayOrder.feature@bitciPayInfo')
+	* def paymentAmount = paymentforAmount.response.Data.Total
+	* call read('classpath:features/BitciPay/CreatePayOrder.feature@bitciPayOdeme')
+	* def balanceForAfter = call read('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller2')
+	* def balanceAfter = balanceForAfter.response.CoinBalance
+	* assert (balanceBefore-balanceAfter) == paymentAmount
+
 
   Scenario: Kullanıcı yeterli bakiyesi olmadığında ödeme yapamamalı
 	* path 'api/CryptoPay/createPayOrder'
