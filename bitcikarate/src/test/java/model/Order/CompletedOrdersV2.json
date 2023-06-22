@@ -1,0 +1,12 @@
+{
+  "CoinId": 0,
+  "CurrencyId": 0,
+  "PagerDto": {
+    "Page": 0,
+    "Size": 0,
+    "Total": 0
+  },
+  "TimeScale": 0,
+  "LanguageCode":"tr"
+
+}
