@@ -1188,3 +1188,60 @@ src/test/java/features/Order/OrderCreate.feature:10
 ]
  
 16:55:17.482 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/GetMarketCurrencyCinMatches.feature
+17:01:56.247 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688479316245
+17:01:56.903 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:01:56.910 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:01:56.925 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+17:01:58.118 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:01:58.119 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:01:58.121 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+17:01:58.650 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:01:58.650 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:01:58.652 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+17:01:59.212 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:01:59.801 [main] INFO  com.intuit.karate - [print] [
+  {
+    "ExchangeId": "df1ae056-cb90-4916-afd5-12518c876cdf",
+    "CurrencyId": 1,
+    "IsActive": false,
+    "CurrencyCode": "TRY",
+    "IsCryptoCurrency": false,
+    "CoinId": null,
+    "Default": true,
+    "IsMarketOpen": true,
+    "Name": "Türk Lirası",
+    "CoinTrackingEnabled": true
+  }
+]
+ 
+17:01:59.802 [main] INFO  com.intuit.karate - [print] [
+  {
+    "ExchangeId": "df1ae056-cb90-4916-afd5-12518c876cdf",
+    "CurrencyId": 2008,
+    "IsActive": false,
+    "CurrencyCode": "USDT",
+    "IsCryptoCurrency": true,
+    "CoinId": 84,
+    "Default": false,
+    "IsMarketOpen": true,
+    "Name": "Tether",
+    "CoinTrackingEnabled": true
+  }
+]
+ 
+17:01:59.803 [main] INFO  com.intuit.karate - [print] [
+  {
+    "ExchangeId": "df1ae056-cb90-4916-afd5-12518c876cdf",
+    "CurrencyId": 2010,
+    "IsActive": false,
+    "CurrencyCode": "GLFT",
+    "IsCryptoCurrency": true,
+    "CoinId": 201,
+    "Default": false,
+    "IsMarketOpen": true,
+    "Name": "GLFT",
+    "CoinTrackingEnabled": false
+  }
+]
+ 
+17:02:00.298 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/GetMarketCurrencyCoinMatches.feature
