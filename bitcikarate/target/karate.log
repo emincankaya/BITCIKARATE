@@ -1,0 +1,1190 @@
+16:22:57.248 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:22:57.256 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:22:57.270 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:22:58.511 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:22:58.512 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:22:58.514 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:22:59.086 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+16:22:59.087 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+16:22:59.087 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:22:59.614 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+16:22:59.615 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+16:23:00.086 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature
+19:00:30.632 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686585630632
+19:00:30.648 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10 - ^Create Token$
+19:00:31.325 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:00:31.325 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:00:31.341 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+19:00:32.675 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:00:32.675 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:00:32.675 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+19:00:33.303 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+19:00:33.303 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+19:00:33.303 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:00:34.326 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/CreateToken/CreateTokenFile.feature
+19:04:14.072 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686585854072
+19:04:14.097 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Customer CoinBalanceDetail Info$
+19:04:14.709 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:14.725 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:04:14.725 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+19:04:15.918 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:04:15.918 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:04:15.918 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+19:04:16.500 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+19:04:16.500 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+19:04:16.500 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:04:17.034 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+19:04:17.034 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+19:04:17.521 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature
+19:04:31.386 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686585871371
+19:04:31.402 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Post All Active Customer Orders Positive$
+19:04:32.018 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:32.030 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:04:32.046 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+19:04:33.192 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:04:33.207 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:04:33.207 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+19:04:33.757 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+19:04:33.757 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+19:04:33.757 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:04:34.290 [main] INFO  com.intuit.karate - [print] {
+  "Orders": [
+    {
+      "Id": 153603579,
+      "CreateDate": "2023-06-08T13:14:13.033",
+      "ExecutionDate": "2023-06-08T13:14:13.023",
+      "CoinId": 88,
+      "CurrencyId": 1,
+      "Pair": "ANKA/TRY",
+      "OrderTypeEnumId": 1,
+      "OrderSideEnumId": 2,
+      "ProcessStateEnumId": 3,
+      "Price": 0.14,
+      "Amount": 78.57,
+      "Total": 10.9998,
+      "State": 1,
+      "StopLossPrice": null,
+      "IsStopPriceLess": null,
+      "HasDetail": true,
+      "ExecutedAmount": 60.53571428
+    }
+  ],
+  "PagerDto": null
+}
+ 
+19:04:34.777 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/AllActiveCustomerOrdersV2.feature
+19:04:47.777 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686585887777
+19:04:47.793 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 30 - ^Limit Sell Open Order$
+19:04:48.467 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:48.467 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:04:48.499 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+19:04:49.660 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+19:04:49.660 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:04:49.676 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+19:04:50.210 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+19:04:50.210 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+19:04:50.210 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+19:04:50.242 [main] INFO  com.intuit.karate - [print] 2 
+19:04:50.242 [main] INFO  com.intuit.karate - [print] 0.1336 
+19:04:51.168 [main] INFO  com.intuit.karate - [print] {
+  "OrderType": 2,
+  "responseHeaders": {
+    "date": [
+      "Mon, 12 Jun 2023 16:04:51 GMT"
+    ],
+    "content-type": [
+      "application/json; charset=utf-8"
+    ],
+    "via": [
+      "1.1 google, 1.1 google"
+    ],
+    "x-content-type-options": [
+      "nosniff"
+    ],
+    "x-frame-options": [
+      "SAMEORIGIN"
+    ],
+    "x-xss-protection": [
+      "1"
+    ],
+    "transfer-encoding": [
+      "chunked"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "Price": 0.1336,
+  "response": {
+    "CustomerMissingInformation": false,
+    "Data": 0,
+    "IsSuccess": false,
+    "Message": "Bu islem için yeterli bakiyeniz bulunmamaktadir. Bu islem için bakiyeniz en az 100 BITCI olmalidir."
+  },
+  "responseTime": 926,
+  "responseStatus": 200,
+  "RequestBody": {
+    "CoinId": 29,
+    "CurrencyId": 1,
+    "Price": 0.1336,
+    "Amount": 100,
+    "StopLossPrice": null,
+    "OrderType": 2,
+    "LanguageCode": "tr"
+  }
+}
+ 
+19:04:51.666 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/OrderCreate.feature
+22:34:36.012 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686598476011
+22:34:36.032 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Post All Active Customer Orders Positive$
+22:34:36.683 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:34:36.683 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+22:34:36.703 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+22:34:38.033 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+22:34:38.041 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+22:34:38.042 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+22:34:38.714 [main] INFO  com.intuit.karate - [print] {
+  "TrackingEnabled": false,
+  "BuyLimit": 20,
+  "SellLimit": 20,
+  "AvgUnitCost": 0,
+  "CurrentPriceDifference": 0.1326,
+  "CurrentDifferencePercantage": 0,
+  "Difference": -100000.00000000000000,
+  "DifferencePercantage": 0,
+  "UnCompletedProfitLoss": -100000.00000000000000,
+  "CoinId": 29,
+  "CoinName": "Bitci",
+  "CoinCode": "BITCI",
+  "TotalBalance": 0.0,
+  "Price": 0,
+  "CurrentTotalBalance": 0.0,
+  "InOrderBalance": 0,
+  "CoinBalance": 0.0,
+  "CoinLockBalance": 0,
+  "CoinDecimal": 2,
+  "PriceDecimal": 4,
+  "TotalDecimal": 4,
+  "CustomerMaxTokenBuyLimit": 0,
+  "TotalCost": 100000.00000000000000,
+  "CurrentPrice": 0.1326,
+  "CompletedProfitLoss": 0,
+  "SameCryptCurrencyForCoin": false
+}
+ 
+22:34:38.714 [main] INFO  com.intuit.karate - [print] {
+  "CoinId": 29,
+  "CurrencyId": 1
+}
+ 
+22:34:38.714 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+22:34:39.263 [main] INFO  com.intuit.karate - [print] {
+  "Orders": [
+    {
+      "Id": 153603579,
+      "CreateDate": "2023-06-08T13:14:13.033",
+      "ExecutionDate": "2023-06-08T13:14:13.023",
+      "CoinId": 88,
+      "CurrencyId": 1,
+      "Pair": "ANKA/TRY",
+      "OrderTypeEnumId": 1,
+      "OrderSideEnumId": 2,
+      "ProcessStateEnumId": 3,
+      "Price": 0.14,
+      "Amount": 78.57,
+      "Total": 10.9998,
+      "State": 1,
+      "StopLossPrice": null,
+      "IsStopPriceLess": null,
+      "HasDetail": true,
+      "ExecutedAmount": 60.53571428
+    }
+  ],
+  "PagerDto": null
+}
+ 
+22:34:39.753 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/AllActiveCustomerOrdersV2.feature
+15:11:37.910 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686658297908
+15:11:37.935 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Post All Active Customer Orders Positive$
+15:11:38.671 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:38.677 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:11:38.696 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:11:47.293 [main] ERROR com.intuit.karate - java.net.UnknownHostException: test.bitci.tech, http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+15:11:47.294 [main] ERROR com.intuit.karate - classpath:caller/CreateToken/CreateTokenFile.feature:13
+When method post
+http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+15:11:47.294 [main] WARN  com.intuit.karate - callSingle() will cache an exception
+15:11:47.295 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:11:47.295 [main] WARN  com.intuit.karate - callSingle() cached result is an exception
+15:11:47.305 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+Given url baseURI
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+15:11:47.305 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+And path 'api/Order/AllActiveCustomerOrdersV2'
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+15:11:47.305 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+And header apitoken = apiToken
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+15:11:47.305 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:9
+And header authorization = generalToken
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:9
+15:11:47.308 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:10
+* def RequestBody = { "TimeScale": 3 }
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:9
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:10
+15:11:47.308 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:11
+And request RequestBody
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:9
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:10
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:11
+15:11:47.310 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:12
+When method post
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:9
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:10
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:11
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:12
+15:11:47.310 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:13
+Then status 200
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:9
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:10
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:11
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:12
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:13
+15:11:47.312 [main] ERROR com.intuit.karate - src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:14
+* print response
+>> src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:6
+>> karate-config.js failed
+>> http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+js failed:
+>>>>
+01: function fn() {
+02:     var env = karate.env; // get system property 'karate.env'
+03:     karate.log('karate.env system property was:', env);
+04:     if (!env) {
+05:         env = 'dev';
+06:     }
+07:     var config = {
+08:         env: env,
+09:         myVarName: 'someValue',
+10:         baseURI: 'https://test.bitci.tech',
+11:         apiToken: 'nkM+r4QxK0END2A9p/DpzV4dZ6uTbBcKjSBNYLv1LwVAUQkrW77FzGc3TqsO/v4Et0mVhNhD0rk2nkTumHwSrinxv3NxnXUKAy83JZ8D2zJeAv/gd6W2pyqaJYlrLuZoMOOwxuAW2GOi0Bj7jdg1MGOnpU2z2+iRiRiwttJgVJHv94BHtYMVbpWFtwcXqsQg'
+12:     }
+13:     var generalTokenResult = karate.callSingle('classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller', config);
+14:     config.generalToken = generalTokenResult.response.Token;
+15:     var CoinBalanceDetail = karate.callSingle('classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller',config);
+16:     config.CurrentPrice=CoinBalanceDetail.response.CurrentPrice;
+17:     karate.configure('headers', {'Content-Type': 'application/json'});
+18:     karate.configure('headers', {'Cap': '-1'})
+19: 
+20: 
+21: 
+22: 
+23: 
+24:     return config;
+25: }
+<<<<
+org.graalvm.polyglot.PolyglotException: http call failed after 8498 milliseconds for url: https://test.bitci.tech/api/Accountv2/login
+classpath:caller/CreateToken/CreateTokenFile.feature:13
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:238)
+- <js>.fn(Unnamed:13)
+
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:4
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:7
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:8
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:9
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:10
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:11
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:12
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:13
+src/test/java/features/Order/AllActiveCustomerOrdersV2.feature:14
+15:11:47.841 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Order/AllActiveCustomerOrdersV2.feature
+22:30:39.981 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686771039979
+22:30:40.750 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:30:40.750 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+22:30:40.766 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:06:59.131 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10 - ^User should be able to get BitciPayment code$
+16:06:59.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:06:59.961 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:06:59.985 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:07:01.379 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:07:01.380 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:07:01.382 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:07:02.052 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:07:02.053 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:07:02.055 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:07:02.649 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:07:02.661 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/BitciPay/CreatePayCode.feature')
+16:07:03.488 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/BitciPay/CreatePayCode.feature')
+16:07:04.834 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/BitciPay/CreatePayOrder.feature
+16:34:55.521 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687268095520
+16:10:52.477 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688476252475
+16:11:06.682 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688476266681
+16:11:06.704 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10 - ^Limit Buy Open Order$
+16:11:07.341 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:11:07.347 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:11:07.364 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:11:08.626 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:11:08.627 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:11:08.629 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:11:09.137 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:11:09.138 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:11:09.141 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:11:09.659 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:11:10.271 [main] INFO  com.intuit.karate - [print] {
+  "CustomerMissingInformation": false,
+  "Data": 0,
+  "IsSuccess": false,
+  "Message": "Alış ve satış emir fiyatları market fiyatının yüzde 20 altında veya üstünde girilemez."
+}
+ 
+16:11:10.752 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/OrderCreate.feature
+16:11:19.701 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688476279699
+16:11:20.371 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:11:20.377 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:11:20.393 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:11:21.544 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:11:21.544 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:11:21.546 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:11:22.096 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:11:22.097 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:11:22.099 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:11:22.597 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:11:22.608 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/OrderCreate.feature')
+16:11:23.154 [main] INFO  com.intuit.karate - [print] {
+  "CustomerMissingInformation": false,
+  "Data": 0,
+  "IsSuccess": false,
+  "Message": "Alış ve satış emir fiyatları market fiyatının yüzde 20 altında veya üstünde girilemez."
+}
+ 
+16:11:23.155 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/Order/OrderCreate.feature')
+16:11:23.655 [main] INFO  com.intuit.karate - [print] {
+  "IsSuccess": false,
+  "Message": "Silme işleminiz başarısız!"
+}
+ 
+16:11:23.661 [main] ERROR com.intuit.karate - src/test/java/features/Order/Cancel.feature:18
+* match  response.IsSuccess == true
+match failed: EQUALS
+  $ | not equal (BOOLEAN:BOOLEAN)
+  false
+  true
+
+src/test/java/features/Order/Cancel.feature:18
+16:11:24.168 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Order/Cancel.feature
+16:24:35.280 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688477075278
+16:24:35.301 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Get Active Orders Positive$
+16:24:35.960 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:24:35.966 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:24:35.982 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:24:37.566 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:24:37.567 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:24:37.569 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:24:38.531 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:24:38.532 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:24:38.534 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:24:39.501 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:24:40.613 [main] INFO  com.intuit.karate - [print] 6 
+16:24:40.623 [main] ERROR com.intuit.karate - src/test/java/features/Order/ActiveOrders.feature:17
+* match  CoinId == 29
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  29
+
+src/test/java/features/Order/ActiveOrders.feature:17
+16:24:41.119 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Order/ActiveOrders.feature
+16:26:28.524 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688477188522
+16:26:39.673 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688477199671
+16:26:57.043 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688477217042
+16:27:19.310 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688477239309
+16:27:19.331 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Tablodan satis fiyati al$
+16:27:19.965 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:27:19.972 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:27:19.989 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:27:21.147 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:27:21.149 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:27:21.151 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:27:21.667 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:27:21.667 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:27:21.670 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:27:22.212 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:27:22.882 [main] INFO  com.intuit.karate - [print] 0.1813 
+16:27:23.386 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/ActiveOrders.feature
+16:48:35.300 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478515298
+16:48:35.954 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:48:35.960 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:48:35.976 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:48:37.435 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:48:37.436 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:48:37.437 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:48:37.961 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:48:37.962 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:48:37.964 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:48:38.506 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:48:38.517 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:48:39.192 [main] INFO  com.intuit.karate - [print] 0.185 
+16:48:39.813 [main] INFO  com.intuit.karate - [print] 7 
+16:48:39.823 [main] ERROR com.intuit.karate - classpath:features/Order/ActiveOrders.feature:30
+* match  CoinId == 29
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  29
+
+classpath:features/Order/ActiveOrders.feature:30
+16:48:41.943 [main] ERROR com.intuit.karate - src/test/java/features/Order/OrderCreate.feature:10
+* def AlisFiyati = callonce read('classpath:features/Order/ActiveOrders.feature')
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  29
+
+classpath:features/Order/ActiveOrders.feature:30
+src/test/java/features/Order/OrderCreate.feature:10
+16:48:42.484 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Order/OrderCreate.feature
+16:49:06.198 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478546196
+16:49:06.858 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:49:06.865 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:06.881 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:49:08.127 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:08.128 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:49:08.130 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:49:09.353 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:49:09.353 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:49:09.356 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:49:09.928 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:49:09.939 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:49:10.560 [main] INFO  com.intuit.karate - [print] 0.185 
+16:49:11.157 [main] INFO  com.intuit.karate - [print] 3 
+16:49:11.167 [main] ERROR com.intuit.karate - classpath:features/Order/ActiveOrders.feature:30
+* match  CoinId == 29
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  29
+
+classpath:features/Order/ActiveOrders.feature:30
+16:49:13.592 [main] ERROR com.intuit.karate - src/test/java/features/Order/OrderCreate.feature:10
+* def AlisFiyati = callonce read('classpath:features/Order/ActiveOrders.feature')
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  29
+
+classpath:features/Order/ActiveOrders.feature:30
+src/test/java/features/Order/OrderCreate.feature:10
+16:49:14.121 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Order/OrderCreate.feature
+16:49:39.079 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478579077
+16:49:39.725 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:49:39.732 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:39.748 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:49:40.999 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:41.001 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:49:41.003 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:49:45.852 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Tablodan satis fiyati al$
+16:49:46.482 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:49:46.488 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:46.505 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:49:47.838 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:47.840 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:49:47.842 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:49:48.565 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:49:48.565 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:49:48.568 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:49:49.329 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:49:50.041 [main] INFO  com.intuit.karate - [print] 0.185 
+16:49:50.539 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/ActiveOrders.feature
+16:49:57.963 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478597961
+16:49:57.983 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9 - ^Gerceklesen Limit Alis Emri$
+16:49:58.617 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:49:58.623 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:58.640 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:49:59.853 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:49:59.855 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:49:59.857 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:50:00.407 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:50:00.408 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:50:00.410 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:50:00.976 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:50:00.986 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:50:01.620 [main] INFO  com.intuit.karate - [print] 0.185 
+16:50:02.219 [main] INFO  com.intuit.karate - [print] 9 
+16:50:02.229 [main] ERROR com.intuit.karate - classpath:features/Order/ActiveOrders.feature:30
+* match  CoinId == 29
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  29
+
+classpath:features/Order/ActiveOrders.feature:30
+16:50:06.471 [main] ERROR com.intuit.karate - src/test/java/features/Order/OrderCreate.feature:10
+* def AlisFiyati = callonce read('classpath:features/Order/ActiveOrders.feature')
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  29
+
+classpath:features/Order/ActiveOrders.feature:30
+src/test/java/features/Order/OrderCreate.feature:10
+16:50:06.987 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Order/OrderCreate.feature
+16:51:21.730 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478681729
+16:51:22.392 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:51:22.398 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:51:22.415 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:51:23.733 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:51:23.734 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:51:23.736 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:51:24.414 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:51:24.415 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:51:24.418 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:51:25.027 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:51:25.872 [main] INFO  com.intuit.karate - [print] 0.185 
+16:51:26.364 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/ActiveOrders.feature
+16:51:39.953 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478699951
+16:51:40.612 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:51:40.618 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:51:40.635 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:51:41.821 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:51:41.821 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:51:41.823 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:51:42.466 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:51:42.466 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:51:42.468 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:51:43.076 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:51:43.087 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:51:43.742 [main] INFO  com.intuit.karate - [print] 0.185 
+16:51:43.743 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:51:44.374 [main] INFO  com.intuit.karate - [print] {
+  "CustomerMissingInformation": false,
+  "Data": 153615498,
+  "IsSuccess": true,
+  "Message": "Emir kaydedilmiştir."
+}
+ 
+16:51:44.885 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/OrderCreate.feature
+16:53:09.849 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478789847
+16:53:10.496 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:53:10.501 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:53:10.516 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:53:11.846 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:53:11.847 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:53:11.848 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:53:12.971 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:53:12.972 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:53:12.975 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:53:13.542 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:53:13.552 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:53:14.301 [main] INFO  com.intuit.karate - [print] 0.185 
+16:53:14.301 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:53:14.304 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/OrderCreate.feature')
+16:53:14.307 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:53:15.072 [main] INFO  com.intuit.karate - [print] 0.185 
+16:53:15.073 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/Order/ActiveOrders.feature')
+16:53:15.654 [main] INFO  com.intuit.karate - [print] {
+  "CustomerMissingInformation": false,
+  "Data": 153615499,
+  "IsSuccess": true,
+  "Message": "Emir kaydedilmiştir."
+}
+ 
+16:53:15.655 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/Order/OrderCreate.feature')
+16:53:16.678 [main] INFO  com.intuit.karate - [print] 0.185 
+16:53:16.679 [main] INFO  com.intuit.karate - [print] 0.185 
+16:53:17.198 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/Trades.feature
+16:55:12.945 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688478912943
+16:55:13.603 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:55:13.610 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:55:13.625 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:55:15.121 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:55:15.121 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:55:15.124 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:55:15.720 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:55:15.721 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:55:15.724 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:55:16.342 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:55:16.974 [main] INFO  com.intuit.karate - [print] [
+  {
+    "ExchangeId": "df1ae056-cb90-4916-afd5-12518c876cdf",
+    "CurrencyId": 1,
+    "IsActive": false,
+    "CurrencyCode": "TRY",
+    "IsCryptoCurrency": false,
+    "CoinId": null,
+    "Default": true,
+    "IsMarketOpen": true,
+    "Name": "Türk Lirası",
+    "CoinTrackingEnabled": true
+  }
+]
+ 
+16:55:16.975 [main] INFO  com.intuit.karate - [print] [
+  {
+    "ExchangeId": "df1ae056-cb90-4916-afd5-12518c876cdf",
+    "CurrencyId": 2008,
+    "IsActive": false,
+    "CurrencyCode": "USDT",
+    "IsCryptoCurrency": true,
+    "CoinId": 84,
+    "Default": false,
+    "IsMarketOpen": true,
+    "Name": "Tether",
+    "CoinTrackingEnabled": true
+  }
+]
+ 
+16:55:16.975 [main] INFO  com.intuit.karate - [print] [
+  {
+    "ExchangeId": "df1ae056-cb90-4916-afd5-12518c876cdf",
+    "CurrencyId": 2010,
+    "IsActive": false,
+    "CurrencyCode": "GLFT",
+    "IsCryptoCurrency": true,
+    "CoinId": 201,
+    "Default": false,
+    "IsMarketOpen": true,
+    "Name": "GLFT",
+    "CoinTrackingEnabled": false
+  }
+]
+ 
+16:55:17.482 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Order/GetMarketCurrencyCinMatches.feature
