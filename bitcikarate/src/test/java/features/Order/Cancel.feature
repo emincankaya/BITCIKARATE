@@ -2,7 +2,7 @@ Feature: Cancel Orders
 
   Background:
     Given url baseURI
-    * def CreateResponse = callonce read('classpath:features/Order/OrderCreate.feature')
+    * def CreateResponse = callonce read('classpath:features/Order/OrderCreate.feature@lımıtbuyorder')
     * def data = CreateResponse.response.Data
 
   Scenario: Emir İptali

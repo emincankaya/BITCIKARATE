@@ -5,7 +5,7 @@ Feature: Order Create
     And path 'api/Order/Create'
     And header apitoken = apiToken
     And header authorization = generalToken
-
+   @gerceklesenalısemri
   Scenario: Gerceklesen Limit Alis Emri
     * def AlisFiyati = callonce read('classpath:features/Order/ActiveOrders.feature')
     * def Fiyat1 = AlisFiyati.response[0].Price
@@ -18,14 +18,15 @@ Feature: Order Create
     * print response
 
  #OrderType=1 Limit Buy Order
- # Scenario: Limit Buy Open Order
-  #  * def RequestBody = read('classpath:model/CreateOrder.json')
-   # *  RequestBody.OrderType = 1
-    #*  RequestBody.Price = CurrentPrice+0.001
-   # And request RequestBody
-  #  When method post
-  #  Then status 200
-  #  * print response
+  @lımıtbuyorder
+ Scenario: Limit Buy Open Order
+    * def RequestBody = read('classpath:model/CreateOrder.json')
+    *  RequestBody.OrderType = 1
+    *  RequestBody.Price = CurrentPrice-0.001
+    And request RequestBody
+    When method post
+    Then status 200
+    * print response
 
 
 

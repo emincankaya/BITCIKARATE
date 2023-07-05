@@ -8,7 +8,7 @@ Feature: Trades
 
     * def CreateResponsee = callonce read('classpath:features/Order/ActiveOrders.feature')
     * def ActualPrice = CreateResponsee.response[0].Price
-    * def CreateResponse = callonce read('classpath:features/Order/OrderCreate.feature')
+    * def CreateResponse = callonce read('classpath:features/Order/OrderCreate.feature@gerceklesenalısemri')
     * def Data = CreateResponse.dataa
     And path '/api/Order/Trades'
     And param pair = 'BITCI_TRY'
