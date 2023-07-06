@@ -6,9 +6,9 @@ Feature: Trades
 
   Scenario: Market gecmisi dogrulama
 
-    * def CreateResponsee = callonce read('classpath:features/Order/ActiveOrders.feature')
+    * def CreateResponsee = call read('classpath:features/Order/ActiveOrders.feature')
     * def ActualPrice = CreateResponsee.response[0].Price
-    * def CreateResponse = callonce read('classpath:features/Order/OrderCreate.feature@gerceklesenalısemri')
+    * def CreateResponse = call read('classpath:features/Order/OrderCreate.feature@gerceklesenalısemri')
     * def Data = CreateResponse.dataa
     And path '/api/Order/Trades'
     And param pair = 'BITCI_TRY'
