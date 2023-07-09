@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/BITCIKARATE1.iml" filepath="$PROJECT_DIR$/.idea/BITCIKARATE1.iml" />
       <module fileurl="file://$PROJECT_DIR$/bitcikarate/bitcikarate.iml" filepath="$PROJECT_DIR$/bitcikarate/bitcikarate.iml" />
     </modules>
   </component>
