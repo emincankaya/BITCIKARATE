@@ -14,3 +14,6 @@ Feature: Get Country List
       #* print bob
       #* print bob1
       * match bob[0].DialCode == "+90"
+      #* print response
+      * def brazil = get response.[?(@.Name=="Brazil")]
+      * def brazilId = brazil[0].Id
