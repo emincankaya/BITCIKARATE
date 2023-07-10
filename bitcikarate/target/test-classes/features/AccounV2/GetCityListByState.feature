@@ -3,7 +3,7 @@ Feature: Get City List By State
   Background:
     Given url baseURI
 
-  Scenario: Brazilya City List By State testi
+  Scenario: Brazilya City List By State
     * def amazonas = callonce read('classpath:features/AccounV2/GetStates.feature')
     * def id = amazonas.amazonasId
     And path 'api/Accountv2/GetCityListByState'

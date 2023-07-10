@@ -3,7 +3,7 @@ Feature: Get District List
   Background:
     Given url baseURI
 
-  Scenario: Antalya Ilcelerinden
+  Scenario: Antalya District
     * def antalyacode = callonce read('classpath:features/AccounV2/GetCityList.feature')
     * def antalyaId = antalyacode.antalya
    # * print antalyaId

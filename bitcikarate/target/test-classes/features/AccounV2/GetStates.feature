@@ -3,7 +3,7 @@ Feature: Get States
   Background:
     Given url baseURI
 
-  Scenario: brazilya testi
+  Scenario: Get States
     * def brazil = callonce read('classpath:features/AccounV2/GetCountryList.feature')
     * def brazilCountryId = brazil.brazilId
     And path 'api/Accountv2/GetStates'
