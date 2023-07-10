@@ -15,5 +15,7 @@ Feature: Get City List
       Then status 200
      # * print response
       * def bab = get response.[?(@.Name=="ANTALYA")]
+      * def antalya = bab[0].Id
+     # * print antalya
      # * print bab
       * match bab[0].Plate == 7
