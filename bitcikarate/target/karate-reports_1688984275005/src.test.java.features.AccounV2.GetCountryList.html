@@ -1,0 +1,2763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("4b233acf-4457-44dd-a3d3-1745a9cc0a3a",{name:"eminc"});
+    posthog.capture("report_feature",{karate_version:"1.3.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.features.AccounV2.GetCountryList</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-07-10 01:14:33 ÖS</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Ulkelerden Türkiye code dogrula</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/features/AccounV2/GetCountryList.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Get Country List</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Ulkelerden Türkiye code dogrula</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>508</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseURI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">13:14:32.644 &lt;&lt; lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">caller.CreateToken.CreateTokenFile</div>
+      </div>
+      <div class="time-cell passed">940</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseURI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.4">13:14:30.543 karate.env system property was: null 
+13:14:30.548 &gt;&gt; lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/Accountv2/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header apitoken = apiToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def RequestBody = {&quot;EmailOrPhone&quot;:&quot;5451320507&quot;,&quot;Password&quot;:&quot;Test123*&quot;,&quot;SmsMobileKey&quot;:&quot;&quot;,&quot;AuthenticationCode&quot;:&quot;&quot;,&quot;LanguageCode&quot;:&quot;en&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request RequestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">914</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.14">
+      <div class="step-ref bg-step">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">caller.CreateToken.CreateTokenFile</div>
+      </div>
+      <div class="time-cell passed">475</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseURI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.4">13:14:31.514 &lt;&lt; lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:14:31.515 &gt;&gt; lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/Accountv2/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header apitoken = apiToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.17">
+      <div class="step-ref bg-step">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def RequestBody = {&quot;EmailOrPhone&quot;:&quot;TestTeam20@test.com&quot;,&quot;Password&quot;:&quot;Test1234*&quot;,&quot;SmsMobileKey&quot;:&quot;&quot;,&quot;AuthenticationCode&quot;:&quot;&quot;,&quot;LanguageCode&quot;:&quot;en&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request RequestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.19">
+      <div class="step-ref bg-step">19</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">475</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.20">
+      <div class="step-ref bg-step">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">caller.CoinBalanceDetail.CoinBlanceDetailCaller</div>
+      </div>
+      <div class="time-cell passed">643</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseURI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.4">13:14:31.995 &lt;&lt; lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:14:31.996 &gt;&gt; lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;api/Coin/CoinBalanceDetail&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header apitoken = apiToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header authorization = generalToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def RequestBody = {&quot;CoinId&quot;: 29,&quot;CurrencyId&quot;: 1}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.14">
+      <div class="step-ref bg-step">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request RequestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">642</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.16">
+      <div class="step-ref bg-step">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;api/Accountv2/GetCountryList&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header authorization = generalToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header apitoken = apiToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">467</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bob = get response.[?(@.Name==&quot;Turkey&quot;)]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bob1 = bob[0].Id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* print bob</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* print bob1</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match bob[0].DialCode == &quot;+90&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">13:14:33.156 [print] [
+  {
+    &quot;Id&quot;: 1,
+    &quot;Name&quot;: &quot;Afghanistan&quot;,
+    &quot;Code&quot;: &quot;AF&quot;,
+    &quot;DialCode&quot;: &quot;+93&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 2,
+    &quot;Name&quot;: &quot;Aland Islands&quot;,
+    &quot;Code&quot;: &quot;AX&quot;,
+    &quot;DialCode&quot;: &quot;+358&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 3,
+    &quot;Name&quot;: &quot;Albania&quot;,
+    &quot;Code&quot;: &quot;AL&quot;,
+    &quot;DialCode&quot;: &quot;+355&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 4,
+    &quot;Name&quot;: &quot;Algeria&quot;,
+    &quot;Code&quot;: &quot;DZ&quot;,
+    &quot;DialCode&quot;: &quot;+213&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 5,
+    &quot;Name&quot;: &quot;AmericanSamoa&quot;,
+    &quot;Code&quot;: &quot;AS&quot;,
+    &quot;DialCode&quot;: &quot;+1684&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 6,
+    &quot;Name&quot;: &quot;Andorra&quot;,
+    &quot;Code&quot;: &quot;AD&quot;,
+    &quot;DialCode&quot;: &quot;+376&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 7,
+    &quot;Name&quot;: &quot;Angola&quot;,
+    &quot;Code&quot;: &quot;AO&quot;,
+    &quot;DialCode&quot;: &quot;+244&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 8,
+    &quot;Name&quot;: &quot;Anguilla&quot;,
+    &quot;Code&quot;: &quot;AI&quot;,
+    &quot;DialCode&quot;: &quot;+1264&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 9,
+    &quot;Name&quot;: &quot;Antarctica&quot;,
+    &quot;Code&quot;: &quot;AQ&quot;,
+    &quot;DialCode&quot;: &quot;+672&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 10,
+    &quot;Name&quot;: &quot;Antigua and Barbuda&quot;,
+    &quot;Code&quot;: &quot;AG&quot;,
+    &quot;DialCode&quot;: &quot;+1268&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 11,
+    &quot;Name&quot;: &quot;Argentina&quot;,
+    &quot;Code&quot;: &quot;AR&quot;,
+    &quot;DialCode&quot;: &quot;+54&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 12,
+    &quot;Name&quot;: &quot;Armenia&quot;,
+    &quot;Code&quot;: &quot;AM&quot;,
+    &quot;DialCode&quot;: &quot;+374&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 13,
+    &quot;Name&quot;: &quot;Aruba&quot;,
+    &quot;Code&quot;: &quot;AW&quot;,
+    &quot;DialCode&quot;: &quot;+297&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 14,
+    &quot;Name&quot;: &quot;Australia&quot;,
+    &quot;Code&quot;: &quot;AU&quot;,
+    &quot;DialCode&quot;: &quot;+61&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 15,
+    &quot;Name&quot;: &quot;Austria&quot;,
+    &quot;Code&quot;: &quot;AT&quot;,
+    &quot;DialCode&quot;: &quot;+43&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 16,
+    &quot;Name&quot;: &quot;Azerbaijan&quot;,
+    &quot;Code&quot;: &quot;AZ&quot;,
+    &quot;DialCode&quot;: &quot;+994&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 17,
+    &quot;Name&quot;: &quot;Bahamas&quot;,
+    &quot;Code&quot;: &quot;BS&quot;,
+    &quot;DialCode&quot;: &quot;+1242&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 18,
+    &quot;Name&quot;: &quot;Bahrain&quot;,
+    &quot;Code&quot;: &quot;BH&quot;,
+    &quot;DialCode&quot;: &quot;+973&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 19,
+    &quot;Name&quot;: &quot;Bangladesh&quot;,
+    &quot;Code&quot;: &quot;BD&quot;,
+    &quot;DialCode&quot;: &quot;+880&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 20,
+    &quot;Name&quot;: &quot;Barbados&quot;,
+    &quot;Code&quot;: &quot;BB&quot;,
+    &quot;DialCode&quot;: &quot;+1246&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 21,
+    &quot;Name&quot;: &quot;Belarus&quot;,
+    &quot;Code&quot;: &quot;BY&quot;,
+    &quot;DialCode&quot;: &quot;+375&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 22,
+    &quot;Name&quot;: &quot;Belgium&quot;,
+    &quot;Code&quot;: &quot;BE&quot;,
+    &quot;DialCode&quot;: &quot;+32&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 23,
+    &quot;Name&quot;: &quot;Belize&quot;,
+    &quot;Code&quot;: &quot;BZ&quot;,
+    &quot;DialCode&quot;: &quot;+501&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 24,
+    &quot;Name&quot;: &quot;Benin&quot;,
+    &quot;Code&quot;: &quot;BJ&quot;,
+    &quot;DialCode&quot;: &quot;+229&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 25,
+    &quot;Name&quot;: &quot;Bermuda&quot;,
+    &quot;Code&quot;: &quot;BM&quot;,
+    &quot;DialCode&quot;: &quot;+1441&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 26,
+    &quot;Name&quot;: &quot;Bhutan&quot;,
+    &quot;Code&quot;: &quot;BT&quot;,
+    &quot;DialCode&quot;: &quot;+975&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 27,
+    &quot;Name&quot;: &quot;Bolivia, Plurinational State of&quot;,
+    &quot;Code&quot;: &quot;BO&quot;,
+    &quot;DialCode&quot;: &quot;+591&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 28,
+    &quot;Name&quot;: &quot;Bosnia and Herzegovina&quot;,
+    &quot;Code&quot;: &quot;BA&quot;,
+    &quot;DialCode&quot;: &quot;+387&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 29,
+    &quot;Name&quot;: &quot;Botswana&quot;,
+    &quot;Code&quot;: &quot;BW&quot;,
+    &quot;DialCode&quot;: &quot;+267&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 30,
+    &quot;Name&quot;: &quot;Brazil&quot;,
+    &quot;Code&quot;: &quot;BR&quot;,
+    &quot;DialCode&quot;: &quot;+55&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 31,
+    &quot;Name&quot;: &quot;British Indian Ocean Territory&quot;,
+    &quot;Code&quot;: &quot;IO&quot;,
+    &quot;DialCode&quot;: &quot;+246&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 32,
+    &quot;Name&quot;: &quot;Brunei Darussalam&quot;,
+    &quot;Code&quot;: &quot;BN&quot;,
+    &quot;DialCode&quot;: &quot;+673&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 33,
+    &quot;Name&quot;: &quot;Bulgaria&quot;,
+    &quot;Code&quot;: &quot;BG&quot;,
+    &quot;DialCode&quot;: &quot;+359&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 34,
+    &quot;Name&quot;: &quot;Burkina Faso&quot;,
+    &quot;Code&quot;: &quot;BF&quot;,
+    &quot;DialCode&quot;: &quot;+226&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 35,
+    &quot;Name&quot;: &quot;Burundi&quot;,
+    &quot;Code&quot;: &quot;BI&quot;,
+    &quot;DialCode&quot;: &quot;+257&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 36,
+    &quot;Name&quot;: &quot;Cambodia&quot;,
+    &quot;Code&quot;: &quot;KH&quot;,
+    &quot;DialCode&quot;: &quot;+855&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 37,
+    &quot;Name&quot;: &quot;Cameroon&quot;,
+    &quot;Code&quot;: &quot;CM&quot;,
+    &quot;DialCode&quot;: &quot;+237&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 38,
+    &quot;Name&quot;: &quot;Canada&quot;,
+    &quot;Code&quot;: &quot;CA&quot;,
+    &quot;DialCode&quot;: &quot;+1&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 39,
+    &quot;Name&quot;: &quot;Cape Verde&quot;,
+    &quot;Code&quot;: &quot;CV&quot;,
+    &quot;DialCode&quot;: &quot;+238&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 40,
+    &quot;Name&quot;: &quot;Cayman Islands&quot;,
+    &quot;Code&quot;: &quot;KY&quot;,
+    &quot;DialCode&quot;: &quot;+ 345&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 41,
+    &quot;Name&quot;: &quot;Central African Republic&quot;,
+    &quot;Code&quot;: &quot;CF&quot;,
+    &quot;DialCode&quot;: &quot;+236&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 42,
+    &quot;Name&quot;: &quot;Chad&quot;,
+    &quot;Code&quot;: &quot;TD&quot;,
+    &quot;DialCode&quot;: &quot;+235&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 43,
+    &quot;Name&quot;: &quot;Chile&quot;,
+    &quot;Code&quot;: &quot;CL&quot;,
+    &quot;DialCode&quot;: &quot;+56&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 44,
+    &quot;Name&quot;: &quot;China&quot;,
+    &quot;Code&quot;: &quot;CN&quot;,
+    &quot;DialCode&quot;: &quot;+86&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 45,
+    &quot;Name&quot;: &quot;Christmas Island&quot;,
+    &quot;Code&quot;: &quot;CX&quot;,
+    &quot;DialCode&quot;: &quot;+61&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 46,
+    &quot;Name&quot;: &quot;Cocos (Keeling) Islands&quot;,
+    &quot;Code&quot;: &quot;CC&quot;,
+    &quot;DialCode&quot;: &quot;+61&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 47,
+    &quot;Name&quot;: &quot;Colombia&quot;,
+    &quot;Code&quot;: &quot;CO&quot;,
+    &quot;DialCode&quot;: &quot;+57&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 48,
+    &quot;Name&quot;: &quot;Comoros&quot;,
+    &quot;Code&quot;: &quot;KM&quot;,
+    &quot;DialCode&quot;: &quot;+269&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 49,
+    &quot;Name&quot;: &quot;Congo&quot;,
+    &quot;Code&quot;: &quot;CG&quot;,
+    &quot;DialCode&quot;: &quot;+242&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 50,
+    &quot;Name&quot;: &quot;Congo, The Democratic Republic of the Congo&quot;,
+    &quot;Code&quot;: &quot;CD&quot;,
+    &quot;DialCode&quot;: &quot;+243&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 51,
+    &quot;Name&quot;: &quot;Cook Islands&quot;,
+    &quot;Code&quot;: &quot;CK&quot;,
+    &quot;DialCode&quot;: &quot;+682&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 52,
+    &quot;Name&quot;: &quot;Costa Rica&quot;,
+    &quot;Code&quot;: &quot;CR&quot;,
+    &quot;DialCode&quot;: &quot;+506&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 53,
+    &quot;Name&quot;: &quot;Cote d&#39;Ivoire&quot;,
+    &quot;Code&quot;: &quot;CI&quot;,
+    &quot;DialCode&quot;: &quot;+225&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 54,
+    &quot;Name&quot;: &quot;Croatia&quot;,
+    &quot;Code&quot;: &quot;HR&quot;,
+    &quot;DialCode&quot;: &quot;+385&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 55,
+    &quot;Name&quot;: &quot;Cuba&quot;,
+    &quot;Code&quot;: &quot;CU&quot;,
+    &quot;DialCode&quot;: &quot;+53&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 56,
+    &quot;Name&quot;: &quot;Cyprus&quot;,
+    &quot;Code&quot;: &quot;CY&quot;,
+    &quot;DialCode&quot;: &quot;+357&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 57,
+    &quot;Name&quot;: &quot;Czech Republic&quot;,
+    &quot;Code&quot;: &quot;CZ&quot;,
+    &quot;DialCode&quot;: &quot;+420&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 58,
+    &quot;Name&quot;: &quot;Denmark&quot;,
+    &quot;Code&quot;: &quot;DK&quot;,
+    &quot;DialCode&quot;: &quot;+45&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 59,
+    &quot;Name&quot;: &quot;Djibouti&quot;,
+    &quot;Code&quot;: &quot;DJ&quot;,
+    &quot;DialCode&quot;: &quot;+253&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 60,
+    &quot;Name&quot;: &quot;Dominica&quot;,
+    &quot;Code&quot;: &quot;DM&quot;,
+    &quot;DialCode&quot;: &quot;+1767&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 61,
+    &quot;Name&quot;: &quot;Dominican Republic&quot;,
+    &quot;Code&quot;: &quot;DO&quot;,
+    &quot;DialCode&quot;: &quot;+1849&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 62,
+    &quot;Name&quot;: &quot;Ecuador&quot;,
+    &quot;Code&quot;: &quot;EC&quot;,
+    &quot;DialCode&quot;: &quot;+593&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 63,
+    &quot;Name&quot;: &quot;Egypt&quot;,
+    &quot;Code&quot;: &quot;EG&quot;,
+    &quot;DialCode&quot;: &quot;+20&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 64,
+    &quot;Name&quot;: &quot;El Salvador&quot;,
+    &quot;Code&quot;: &quot;SV&quot;,
+    &quot;DialCode&quot;: &quot;+503&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 65,
+    &quot;Name&quot;: &quot;Equatorial Guinea&quot;,
+    &quot;Code&quot;: &quot;GQ&quot;,
+    &quot;DialCode&quot;: &quot;+240&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 66,
+    &quot;Name&quot;: &quot;Eritrea&quot;,
+    &quot;Code&quot;: &quot;ER&quot;,
+    &quot;DialCode&quot;: &quot;+291&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 67,
+    &quot;Name&quot;: &quot;Estonia&quot;,
+    &quot;Code&quot;: &quot;EE&quot;,
+    &quot;DialCode&quot;: &quot;+372&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 68,
+    &quot;Name&quot;: &quot;Ethiopia&quot;,
+    &quot;Code&quot;: &quot;ET&quot;,
+    &quot;DialCode&quot;: &quot;+251&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 69,
+    &quot;Name&quot;: &quot;Falkland Islands (Malvinas)&quot;,
+    &quot;Code&quot;: &quot;FK&quot;,
+    &quot;DialCode&quot;: &quot;+500&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 70,
+    &quot;Name&quot;: &quot;Faroe Islands&quot;,
+    &quot;Code&quot;: &quot;FO&quot;,
+    &quot;DialCode&quot;: &quot;+298&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 71,
+    &quot;Name&quot;: &quot;Fiji&quot;,
+    &quot;Code&quot;: &quot;FJ&quot;,
+    &quot;DialCode&quot;: &quot;+679&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 72,
+    &quot;Name&quot;: &quot;Finland&quot;,
+    &quot;Code&quot;: &quot;FI&quot;,
+    &quot;DialCode&quot;: &quot;+358&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 73,
+    &quot;Name&quot;: &quot;France&quot;,
+    &quot;Code&quot;: &quot;FR&quot;,
+    &quot;DialCode&quot;: &quot;+33&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 74,
+    &quot;Name&quot;: &quot;French Guiana&quot;,
+    &quot;Code&quot;: &quot;GF&quot;,
+    &quot;DialCode&quot;: &quot;+594&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 75,
+    &quot;Name&quot;: &quot;French Polynesia&quot;,
+    &quot;Code&quot;: &quot;PF&quot;,
+    &quot;DialCode&quot;: &quot;+689&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 76,
+    &quot;Name&quot;: &quot;Gabon&quot;,
+    &quot;Code&quot;: &quot;GA&quot;,
+    &quot;DialCode&quot;: &quot;+241&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 77,
+    &quot;Name&quot;: &quot;Gambia&quot;,
+    &quot;Code&quot;: &quot;GM&quot;,
+    &quot;DialCode&quot;: &quot;+220&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 78,
+    &quot;Name&quot;: &quot;Georgia&quot;,
+    &quot;Code&quot;: &quot;GE&quot;,
+    &quot;DialCode&quot;: &quot;+995&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 79,
+    &quot;Name&quot;: &quot;Germany&quot;,
+    &quot;Code&quot;: &quot;DE&quot;,
+    &quot;DialCode&quot;: &quot;+49&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 80,
+    &quot;Name&quot;: &quot;Ghana&quot;,
+    &quot;Code&quot;: &quot;GH&quot;,
+    &quot;DialCode&quot;: &quot;+233&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 81,
+    &quot;Name&quot;: &quot;Gibraltar&quot;,
+    &quot;Code&quot;: &quot;GI&quot;,
+    &quot;DialCode&quot;: &quot;+350&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 82,
+    &quot;Name&quot;: &quot;Greece&quot;,
+    &quot;Code&quot;: &quot;GR&quot;,
+    &quot;DialCode&quot;: &quot;+30&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 83,
+    &quot;Name&quot;: &quot;Greenland&quot;,
+    &quot;Code&quot;: &quot;GL&quot;,
+    &quot;DialCode&quot;: &quot;+299&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 84,
+    &quot;Name&quot;: &quot;Grenada&quot;,
+    &quot;Code&quot;: &quot;GD&quot;,
+    &quot;DialCode&quot;: &quot;+1473&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 85,
+    &quot;Name&quot;: &quot;Guadeloupe&quot;,
+    &quot;Code&quot;: &quot;GP&quot;,
+    &quot;DialCode&quot;: &quot;+590&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 86,
+    &quot;Name&quot;: &quot;Guam&quot;,
+    &quot;Code&quot;: &quot;GU&quot;,
+    &quot;DialCode&quot;: &quot;+1671&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 87,
+    &quot;Name&quot;: &quot;Guatemala&quot;,
+    &quot;Code&quot;: &quot;GT&quot;,
+    &quot;DialCode&quot;: &quot;+502&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 88,
+    &quot;Name&quot;: &quot;Guernsey&quot;,
+    &quot;Code&quot;: &quot;GG&quot;,
+    &quot;DialCode&quot;: &quot;+44&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 89,
+    &quot;Name&quot;: &quot;Guinea&quot;,
+    &quot;Code&quot;: &quot;GN&quot;,
+    &quot;DialCode&quot;: &quot;+224&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 90,
+    &quot;Name&quot;: &quot;Guinea-Bissau&quot;,
+    &quot;Code&quot;: &quot;GW&quot;,
+    &quot;DialCode&quot;: &quot;+245&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 91,
+    &quot;Name&quot;: &quot;Guyana&quot;,
+    &quot;Code&quot;: &quot;GY&quot;,
+    &quot;DialCode&quot;: &quot;+595&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 92,
+    &quot;Name&quot;: &quot;Haiti&quot;,
+    &quot;Code&quot;: &quot;HT&quot;,
+    &quot;DialCode&quot;: &quot;+509&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 93,
+    &quot;Name&quot;: &quot;Holy See (Vatican City State)&quot;,
+    &quot;Code&quot;: &quot;VA&quot;,
+    &quot;DialCode&quot;: &quot;+379&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 94,
+    &quot;Name&quot;: &quot;Honduras&quot;,
+    &quot;Code&quot;: &quot;HN&quot;,
+    &quot;DialCode&quot;: &quot;+504&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 95,
+    &quot;Name&quot;: &quot;Hong Kong&quot;,
+    &quot;Code&quot;: &quot;HK&quot;,
+    &quot;DialCode&quot;: &quot;+852&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 96,
+    &quot;Name&quot;: &quot;Hungary&quot;,
+    &quot;Code&quot;: &quot;HU&quot;,
+    &quot;DialCode&quot;: &quot;+36&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 97,
+    &quot;Name&quot;: &quot;Iceland&quot;,
+    &quot;Code&quot;: &quot;IS&quot;,
+    &quot;DialCode&quot;: &quot;+354&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 98,
+    &quot;Name&quot;: &quot;India&quot;,
+    &quot;Code&quot;: &quot;IN&quot;,
+    &quot;DialCode&quot;: &quot;+91&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 99,
+    &quot;Name&quot;: &quot;Indonesia&quot;,
+    &quot;Code&quot;: &quot;ID&quot;,
+    &quot;DialCode&quot;: &quot;+62&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 100,
+    &quot;Name&quot;: &quot;Iran, Islamic Republic of Persian Gulf&quot;,
+    &quot;Code&quot;: &quot;IR&quot;,
+    &quot;DialCode&quot;: &quot;+98&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 101,
+    &quot;Name&quot;: &quot;Iraq&quot;,
+    &quot;Code&quot;: &quot;IQ&quot;,
+    &quot;DialCode&quot;: &quot;+964&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 102,
+    &quot;Name&quot;: &quot;Ireland&quot;,
+    &quot;Code&quot;: &quot;IE&quot;,
+    &quot;DialCode&quot;: &quot;+353&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 103,
+    &quot;Name&quot;: &quot;Isle of Man&quot;,
+    &quot;Code&quot;: &quot;IM&quot;,
+    &quot;DialCode&quot;: &quot;+44&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 104,
+    &quot;Name&quot;: &quot;Israel&quot;,
+    &quot;Code&quot;: &quot;IL&quot;,
+    &quot;DialCode&quot;: &quot;+972&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 105,
+    &quot;Name&quot;: &quot;Italy&quot;,
+    &quot;Code&quot;: &quot;IT&quot;,
+    &quot;DialCode&quot;: &quot;+39&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 106,
+    &quot;Name&quot;: &quot;Jamaica&quot;,
+    &quot;Code&quot;: &quot;JM&quot;,
+    &quot;DialCode&quot;: &quot;+1876&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 107,
+    &quot;Name&quot;: &quot;Japan&quot;,
+    &quot;Code&quot;: &quot;JP&quot;,
+    &quot;DialCode&quot;: &quot;+81&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 108,
+    &quot;Name&quot;: &quot;Jersey&quot;,
+    &quot;Code&quot;: &quot;JE&quot;,
+    &quot;DialCode&quot;: &quot;+44&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 109,
+    &quot;Name&quot;: &quot;Jordan&quot;,
+    &quot;Code&quot;: &quot;JO&quot;,
+    &quot;DialCode&quot;: &quot;+962&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 110,
+    &quot;Name&quot;: &quot;Kazakhstan&quot;,
+    &quot;Code&quot;: &quot;KZ&quot;,
+    &quot;DialCode&quot;: &quot;+77&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 111,
+    &quot;Name&quot;: &quot;Kenya&quot;,
+    &quot;Code&quot;: &quot;KE&quot;,
+    &quot;DialCode&quot;: &quot;+254&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 112,
+    &quot;Name&quot;: &quot;Kiribati&quot;,
+    &quot;Code&quot;: &quot;KI&quot;,
+    &quot;DialCode&quot;: &quot;+686&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 113,
+    &quot;Name&quot;: &quot;Korea, Democratic People&#39;s Republic of Korea&quot;,
+    &quot;Code&quot;: &quot;KP&quot;,
+    &quot;DialCode&quot;: &quot;+850&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 114,
+    &quot;Name&quot;: &quot;Korea, Republic of South Korea&quot;,
+    &quot;Code&quot;: &quot;KR&quot;,
+    &quot;DialCode&quot;: &quot;+82&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 115,
+    &quot;Name&quot;: &quot;Kuwait&quot;,
+    &quot;Code&quot;: &quot;KW&quot;,
+    &quot;DialCode&quot;: &quot;+965&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 116,
+    &quot;Name&quot;: &quot;Kyrgyzstan&quot;,
+    &quot;Code&quot;: &quot;KG&quot;,
+    &quot;DialCode&quot;: &quot;+996&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 117,
+    &quot;Name&quot;: &quot;Laos&quot;,
+    &quot;Code&quot;: &quot;LA&quot;,
+    &quot;DialCode&quot;: &quot;+856&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 118,
+    &quot;Name&quot;: &quot;Latvia&quot;,
+    &quot;Code&quot;: &quot;LV&quot;,
+    &quot;DialCode&quot;: &quot;+371&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 119,
+    &quot;Name&quot;: &quot;Lebanon&quot;,
+    &quot;Code&quot;: &quot;LB&quot;,
+    &quot;DialCode&quot;: &quot;+961&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 120,
+    &quot;Name&quot;: &quot;Lesotho&quot;,
+    &quot;Code&quot;: &quot;LS&quot;,
+    &quot;DialCode&quot;: &quot;+266&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 121,
+    &quot;Name&quot;: &quot;Liberia&quot;,
+    &quot;Code&quot;: &quot;LR&quot;,
+    &quot;DialCode&quot;: &quot;+231&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 122,
+    &quot;Name&quot;: &quot;Libyan Arab Jamahiriya&quot;,
+    &quot;Code&quot;: &quot;LY&quot;,
+    &quot;DialCode&quot;: &quot;+218&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 123,
+    &quot;Name&quot;: &quot;Liechtenstein&quot;,
+    &quot;Code&quot;: &quot;LI&quot;,
+    &quot;DialCode&quot;: &quot;+423&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 124,
+    &quot;Name&quot;: &quot;Lithuania&quot;,
+    &quot;Code&quot;: &quot;LT&quot;,
+    &quot;DialCode&quot;: &quot;+370&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 125,
+    &quot;Name&quot;: &quot;Luxembourg&quot;,
+    &quot;Code&quot;: &quot;LU&quot;,
+    &quot;DialCode&quot;: &quot;+352&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 126,
+    &quot;Name&quot;: &quot;Macao&quot;,
+    &quot;Code&quot;: &quot;MO&quot;,
+    &quot;DialCode&quot;: &quot;+853&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 127,
+    &quot;Name&quot;: &quot;Macedonia&quot;,
+    &quot;Code&quot;: &quot;MK&quot;,
+    &quot;DialCode&quot;: &quot;+389&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 128,
+    &quot;Name&quot;: &quot;Madagascar&quot;,
+    &quot;Code&quot;: &quot;MG&quot;,
+    &quot;DialCode&quot;: &quot;+261&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 129,
+    &quot;Name&quot;: &quot;Malawi&quot;,
+    &quot;Code&quot;: &quot;MW&quot;,
+    &quot;DialCode&quot;: &quot;+265&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 130,
+    &quot;Name&quot;: &quot;Malaysia&quot;,
+    &quot;Code&quot;: &quot;MY&quot;,
+    &quot;DialCode&quot;: &quot;+60&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 131,
+    &quot;Name&quot;: &quot;Maldives&quot;,
+    &quot;Code&quot;: &quot;MV&quot;,
+    &quot;DialCode&quot;: &quot;+960&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 132,
+    &quot;Name&quot;: &quot;Mali&quot;,
+    &quot;Code&quot;: &quot;ML&quot;,
+    &quot;DialCode&quot;: &quot;+223&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 133,
+    &quot;Name&quot;: &quot;Malta&quot;,
+    &quot;Code&quot;: &quot;MT&quot;,
+    &quot;DialCode&quot;: &quot;+356&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 134,
+    &quot;Name&quot;: &quot;Marshall Islands&quot;,
+    &quot;Code&quot;: &quot;MH&quot;,
+    &quot;DialCode&quot;: &quot;+692&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 135,
+    &quot;Name&quot;: &quot;Martinique&quot;,
+    &quot;Code&quot;: &quot;MQ&quot;,
+    &quot;DialCode&quot;: &quot;+596&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 136,
+    &quot;Name&quot;: &quot;Mauritania&quot;,
+    &quot;Code&quot;: &quot;MR&quot;,
+    &quot;DialCode&quot;: &quot;+222&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 137,
+    &quot;Name&quot;: &quot;Mauritius&quot;,
+    &quot;Code&quot;: &quot;MU&quot;,
+    &quot;DialCode&quot;: &quot;+230&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 138,
+    &quot;Name&quot;: &quot;Mayotte&quot;,
+    &quot;Code&quot;: &quot;YT&quot;,
+    &quot;DialCode&quot;: &quot;+262&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 139,
+    &quot;Name&quot;: &quot;Mexico&quot;,
+    &quot;Code&quot;: &quot;MX&quot;,
+    &quot;DialCode&quot;: &quot;+52&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 140,
+    &quot;Name&quot;: &quot;Micronesia, Federated States of Micronesia&quot;,
+    &quot;Code&quot;: &quot;FM&quot;,
+    &quot;DialCode&quot;: &quot;+691&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 141,
+    &quot;Name&quot;: &quot;Moldova&quot;,
+    &quot;Code&quot;: &quot;MD&quot;,
+    &quot;DialCode&quot;: &quot;+373&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 142,
+    &quot;Name&quot;: &quot;Monaco&quot;,
+    &quot;Code&quot;: &quot;MC&quot;,
+    &quot;DialCode&quot;: &quot;+377&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 143,
+    &quot;Name&quot;: &quot;Mongolia&quot;,
+    &quot;Code&quot;: &quot;MN&quot;,
+    &quot;DialCode&quot;: &quot;+976&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 144,
+    &quot;Name&quot;: &quot;Montenegro&quot;,
+    &quot;Code&quot;: &quot;ME&quot;,
+    &quot;DialCode&quot;: &quot;+382&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 145,
+    &quot;Name&quot;: &quot;Montserrat&quot;,
+    &quot;Code&quot;: &quot;MS&quot;,
+    &quot;DialCode&quot;: &quot;+1664&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 146,
+    &quot;Name&quot;: &quot;Morocco&quot;,
+    &quot;Code&quot;: &quot;MA&quot;,
+    &quot;DialCode&quot;: &quot;+212&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 147,
+    &quot;Name&quot;: &quot;Mozambique&quot;,
+    &quot;Code&quot;: &quot;MZ&quot;,
+    &quot;DialCode&quot;: &quot;+258&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 148,
+    &quot;Name&quot;: &quot;Myanmar&quot;,
+    &quot;Code&quot;: &quot;MM&quot;,
+    &quot;DialCode&quot;: &quot;+95&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 149,
+    &quot;Name&quot;: &quot;Namibia&quot;,
+    &quot;Code&quot;: &quot;NA&quot;,
+    &quot;DialCode&quot;: &quot;+264&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 150,
+    &quot;Name&quot;: &quot;Nauru&quot;,
+    &quot;Code&quot;: &quot;NR&quot;,
+    &quot;DialCode&quot;: &quot;+674&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 151,
+    &quot;Name&quot;: &quot;Nepal&quot;,
+    &quot;Code&quot;: &quot;NP&quot;,
+    &quot;DialCode&quot;: &quot;+977&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 152,
+    &quot;Name&quot;: &quot;Netherlands&quot;,
+    &quot;Code&quot;: &quot;NL&quot;,
+    &quot;DialCode&quot;: &quot;+31&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 153,
+    &quot;Name&quot;: &quot;Netherlands Antilles&quot;,
+    &quot;Code&quot;: &quot;AN&quot;,
+    &quot;DialCode&quot;: &quot;+599&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 154,
+    &quot;Name&quot;: &quot;New Caledonia&quot;,
+    &quot;Code&quot;: &quot;NC&quot;,
+    &quot;DialCode&quot;: &quot;+687&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 155,
+    &quot;Name&quot;: &quot;New Zealand&quot;,
+    &quot;Code&quot;: &quot;NZ&quot;,
+    &quot;DialCode&quot;: &quot;+64&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 156,
+    &quot;Name&quot;: &quot;Nicaragua&quot;,
+    &quot;Code&quot;: &quot;NI&quot;,
+    &quot;DialCode&quot;: &quot;+505&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 157,
+    &quot;Name&quot;: &quot;Niger&quot;,
+    &quot;Code&quot;: &quot;NE&quot;,
+    &quot;DialCode&quot;: &quot;+227&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 158,
+    &quot;Name&quot;: &quot;Nigeria&quot;,
+    &quot;Code&quot;: &quot;NG&quot;,
+    &quot;DialCode&quot;: &quot;+234&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 159,
+    &quot;Name&quot;: &quot;Niue&quot;,
+    &quot;Code&quot;: &quot;NU&quot;,
+    &quot;DialCode&quot;: &quot;+683&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 160,
+    &quot;Name&quot;: &quot;Norfolk Island&quot;,
+    &quot;Code&quot;: &quot;NF&quot;,
+    &quot;DialCode&quot;: &quot;+672&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 161,
+    &quot;Name&quot;: &quot;Northern Mariana Islands&quot;,
+    &quot;Code&quot;: &quot;MP&quot;,
+    &quot;DialCode&quot;: &quot;+1670&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 162,
+    &quot;Name&quot;: &quot;Norway&quot;,
+    &quot;Code&quot;: &quot;NO&quot;,
+    &quot;DialCode&quot;: &quot;+47&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 163,
+    &quot;Name&quot;: &quot;Oman&quot;,
+    &quot;Code&quot;: &quot;OM&quot;,
+    &quot;DialCode&quot;: &quot;+968&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 164,
+    &quot;Name&quot;: &quot;Pakistan&quot;,
+    &quot;Code&quot;: &quot;PK&quot;,
+    &quot;DialCode&quot;: &quot;+92&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 165,
+    &quot;Name&quot;: &quot;Palau&quot;,
+    &quot;Code&quot;: &quot;PW&quot;,
+    &quot;DialCode&quot;: &quot;+680&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 166,
+    &quot;Name&quot;: &quot;Palestinian Territory, Occupied&quot;,
+    &quot;Code&quot;: &quot;PS&quot;,
+    &quot;DialCode&quot;: &quot;+970&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 167,
+    &quot;Name&quot;: &quot;Panama&quot;,
+    &quot;Code&quot;: &quot;PA&quot;,
+    &quot;DialCode&quot;: &quot;+507&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 168,
+    &quot;Name&quot;: &quot;Papua New Guinea&quot;,
+    &quot;Code&quot;: &quot;PG&quot;,
+    &quot;DialCode&quot;: &quot;+675&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 169,
+    &quot;Name&quot;: &quot;Paraguay&quot;,
+    &quot;Code&quot;: &quot;PY&quot;,
+    &quot;DialCode&quot;: &quot;+595&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 170,
+    &quot;Name&quot;: &quot;Peru&quot;,
+    &quot;Code&quot;: &quot;PE&quot;,
+    &quot;DialCode&quot;: &quot;+51&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 171,
+    &quot;Name&quot;: &quot;Philippines&quot;,
+    &quot;Code&quot;: &quot;PH&quot;,
+    &quot;DialCode&quot;: &quot;+63&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 172,
+    &quot;Name&quot;: &quot;Pitcairn&quot;,
+    &quot;Code&quot;: &quot;PN&quot;,
+    &quot;DialCode&quot;: &quot;+872&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 173,
+    &quot;Name&quot;: &quot;Poland&quot;,
+    &quot;Code&quot;: &quot;PL&quot;,
+    &quot;DialCode&quot;: &quot;+48&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 174,
+    &quot;Name&quot;: &quot;Portugal&quot;,
+    &quot;Code&quot;: &quot;PT&quot;,
+    &quot;DialCode&quot;: &quot;+351&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 175,
+    &quot;Name&quot;: &quot;Puerto Rico&quot;,
+    &quot;Code&quot;: &quot;PR&quot;,
+    &quot;DialCode&quot;: &quot;+1939&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 176,
+    &quot;Name&quot;: &quot;Qatar&quot;,
+    &quot;Code&quot;: &quot;QA&quot;,
+    &quot;DialCode&quot;: &quot;+974&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 177,
+    &quot;Name&quot;: &quot;Romania&quot;,
+    &quot;Code&quot;: &quot;RO&quot;,
+    &quot;DialCode&quot;: &quot;+40&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 178,
+    &quot;Name&quot;: &quot;Russia&quot;,
+    &quot;Code&quot;: &quot;RU&quot;,
+    &quot;DialCode&quot;: &quot;+7&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 179,
+    &quot;Name&quot;: &quot;Rwanda&quot;,
+    &quot;Code&quot;: &quot;RW&quot;,
+    &quot;DialCode&quot;: &quot;+250&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 180,
+    &quot;Name&quot;: &quot;Reunion&quot;,
+    &quot;Code&quot;: &quot;RE&quot;,
+    &quot;DialCode&quot;: &quot;+262&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 181,
+    &quot;Name&quot;: &quot;Saint Barthelemy&quot;,
+    &quot;Code&quot;: &quot;BL&quot;,
+    &quot;DialCode&quot;: &quot;+590&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 182,
+    &quot;Name&quot;: &quot;Saint Helena, Ascension and Tristan Da Cunha&quot;,
+    &quot;Code&quot;: &quot;SH&quot;,
+    &quot;DialCode&quot;: &quot;+290&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 183,
+    &quot;Name&quot;: &quot;Saint Kitts and Nevis&quot;,
+    &quot;Code&quot;: &quot;KN&quot;,
+    &quot;DialCode&quot;: &quot;+1869&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 184,
+    &quot;Name&quot;: &quot;Saint Lucia&quot;,
+    &quot;Code&quot;: &quot;LC&quot;,
+    &quot;DialCode&quot;: &quot;+1758&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 185,
+    &quot;Name&quot;: &quot;Saint Martin&quot;,
+    &quot;Code&quot;: &quot;MF&quot;,
+    &quot;DialCode&quot;: &quot;+590&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 186,
+    &quot;Name&quot;: &quot;Saint Pierre and Miquelon&quot;,
+    &quot;Code&quot;: &quot;PM&quot;,
+    &quot;DialCode&quot;: &quot;+508&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 187,
+    &quot;Name&quot;: &quot;Saint Vincent and the Grenadines&quot;,
+    &quot;Code&quot;: &quot;VC&quot;,
+    &quot;DialCode&quot;: &quot;+1784&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 188,
+    &quot;Name&quot;: &quot;Samoa&quot;,
+    &quot;Code&quot;: &quot;WS&quot;,
+    &quot;DialCode&quot;: &quot;+685&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 189,
+    &quot;Name&quot;: &quot;San Marino&quot;,
+    &quot;Code&quot;: &quot;SM&quot;,
+    &quot;DialCode&quot;: &quot;+378&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 190,
+    &quot;Name&quot;: &quot;Sao Tome and Principe&quot;,
+    &quot;Code&quot;: &quot;ST&quot;,
+    &quot;DialCode&quot;: &quot;+239&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 191,
+    &quot;Name&quot;: &quot;Saudi Arabia&quot;,
+    &quot;Code&quot;: &quot;SA&quot;,
+    &quot;DialCode&quot;: &quot;+966&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 192,
+    &quot;Name&quot;: &quot;Senegal&quot;,
+    &quot;Code&quot;: &quot;SN&quot;,
+    &quot;DialCode&quot;: &quot;+221&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 193,
+    &quot;Name&quot;: &quot;Serbia&quot;,
+    &quot;Code&quot;: &quot;RS&quot;,
+    &quot;DialCode&quot;: &quot;+381&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 194,
+    &quot;Name&quot;: &quot;Seychelles&quot;,
+    &quot;Code&quot;: &quot;SC&quot;,
+    &quot;DialCode&quot;: &quot;+248&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 195,
+    &quot;Name&quot;: &quot;Sierra Leone&quot;,
+    &quot;Code&quot;: &quot;SL&quot;,
+    &quot;DialCode&quot;: &quot;+232&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 196,
+    &quot;Name&quot;: &quot;Singapore&quot;,
+    &quot;Code&quot;: &quot;SG&quot;,
+    &quot;DialCode&quot;: &quot;+65&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 197,
+    &quot;Name&quot;: &quot;Slovakia&quot;,
+    &quot;Code&quot;: &quot;SK&quot;,
+    &quot;DialCode&quot;: &quot;+421&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 198,
+    &quot;Name&quot;: &quot;Slovenia&quot;,
+    &quot;Code&quot;: &quot;SI&quot;,
+    &quot;DialCode&quot;: &quot;+386&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 199,
+    &quot;Name&quot;: &quot;Solomon Islands&quot;,
+    &quot;Code&quot;: &quot;SB&quot;,
+    &quot;DialCode&quot;: &quot;+677&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 200,
+    &quot;Name&quot;: &quot;Somalia&quot;,
+    &quot;Code&quot;: &quot;SO&quot;,
+    &quot;DialCode&quot;: &quot;+252&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 201,
+    &quot;Name&quot;: &quot;South Africa&quot;,
+    &quot;Code&quot;: &quot;ZA&quot;,
+    &quot;DialCode&quot;: &quot;+27&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 202,
+    &quot;Name&quot;: &quot;South Sudan&quot;,
+    &quot;Code&quot;: &quot;SS&quot;,
+    &quot;DialCode&quot;: &quot;+211&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 203,
+    &quot;Name&quot;: &quot;South Georgia and the South Sandwich Islands&quot;,
+    &quot;Code&quot;: &quot;GS&quot;,
+    &quot;DialCode&quot;: &quot;+500&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 204,
+    &quot;Name&quot;: &quot;Spain&quot;,
+    &quot;Code&quot;: &quot;ES&quot;,
+    &quot;DialCode&quot;: &quot;+34&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 205,
+    &quot;Name&quot;: &quot;Sri Lanka&quot;,
+    &quot;Code&quot;: &quot;LK&quot;,
+    &quot;DialCode&quot;: &quot;+94&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 206,
+    &quot;Name&quot;: &quot;Sudan&quot;,
+    &quot;Code&quot;: &quot;SD&quot;,
+    &quot;DialCode&quot;: &quot;+249&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 207,
+    &quot;Name&quot;: &quot;Suriname&quot;,
+    &quot;Code&quot;: &quot;SR&quot;,
+    &quot;DialCode&quot;: &quot;+597&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 208,
+    &quot;Name&quot;: &quot;Svalbard and Jan Mayen&quot;,
+    &quot;Code&quot;: &quot;SJ&quot;,
+    &quot;DialCode&quot;: &quot;+47&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 209,
+    &quot;Name&quot;: &quot;Swaziland&quot;,
+    &quot;Code&quot;: &quot;SZ&quot;,
+    &quot;DialCode&quot;: &quot;+268&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 210,
+    &quot;Name&quot;: &quot;Sweden&quot;,
+    &quot;Code&quot;: &quot;SE&quot;,
+    &quot;DialCode&quot;: &quot;+46&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 211,
+    &quot;Name&quot;: &quot;Switzerland&quot;,
+    &quot;Code&quot;: &quot;CH&quot;,
+    &quot;DialCode&quot;: &quot;+41&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 212,
+    &quot;Name&quot;: &quot;Syrian Arab Republic&quot;,
+    &quot;Code&quot;: &quot;SY&quot;,
+    &quot;DialCode&quot;: &quot;+963&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 213,
+    &quot;Name&quot;: &quot;Taiwan&quot;,
+    &quot;Code&quot;: &quot;TW&quot;,
+    &quot;DialCode&quot;: &quot;+886&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 214,
+    &quot;Name&quot;: &quot;Tajikistan&quot;,
+    &quot;Code&quot;: &quot;TJ&quot;,
+    &quot;DialCode&quot;: &quot;+992&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 215,
+    &quot;Name&quot;: &quot;Tanzania, United Republic of Tanzania&quot;,
+    &quot;Code&quot;: &quot;TZ&quot;,
+    &quot;DialCode&quot;: &quot;+255&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 216,
+    &quot;Name&quot;: &quot;Thailand&quot;,
+    &quot;Code&quot;: &quot;TH&quot;,
+    &quot;DialCode&quot;: &quot;+66&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 217,
+    &quot;Name&quot;: &quot;Timor-Leste&quot;,
+    &quot;Code&quot;: &quot;TL&quot;,
+    &quot;DialCode&quot;: &quot;+670&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 218,
+    &quot;Name&quot;: &quot;Togo&quot;,
+    &quot;Code&quot;: &quot;TG&quot;,
+    &quot;DialCode&quot;: &quot;+228&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 219,
+    &quot;Name&quot;: &quot;Tokelau&quot;,
+    &quot;Code&quot;: &quot;TK&quot;,
+    &quot;DialCode&quot;: &quot;+690&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 220,
+    &quot;Name&quot;: &quot;Tonga&quot;,
+    &quot;Code&quot;: &quot;TO&quot;,
+    &quot;DialCode&quot;: &quot;+676&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 221,
+    &quot;Name&quot;: &quot;Trinidad and Tobago&quot;,
+    &quot;Code&quot;: &quot;TT&quot;,
+    &quot;DialCode&quot;: &quot;+1868&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 222,
+    &quot;Name&quot;: &quot;Tunisia&quot;,
+    &quot;Code&quot;: &quot;TN&quot;,
+    &quot;DialCode&quot;: &quot;+216&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 223,
+    &quot;Name&quot;: &quot;Turkey&quot;,
+    &quot;Code&quot;: &quot;TR&quot;,
+    &quot;DialCode&quot;: &quot;+90&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 224,
+    &quot;Name&quot;: &quot;Turkmenistan&quot;,
+    &quot;Code&quot;: &quot;TM&quot;,
+    &quot;DialCode&quot;: &quot;+993&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 225,
+    &quot;Name&quot;: &quot;Turks and Caicos Islands&quot;,
+    &quot;Code&quot;: &quot;TC&quot;,
+    &quot;DialCode&quot;: &quot;+1649&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 226,
+    &quot;Name&quot;: &quot;Tuvalu&quot;,
+    &quot;Code&quot;: &quot;TV&quot;,
+    &quot;DialCode&quot;: &quot;+688&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 227,
+    &quot;Name&quot;: &quot;Uganda&quot;,
+    &quot;Code&quot;: &quot;UG&quot;,
+    &quot;DialCode&quot;: &quot;+256&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 228,
+    &quot;Name&quot;: &quot;Ukraine&quot;,
+    &quot;Code&quot;: &quot;UA&quot;,
+    &quot;DialCode&quot;: &quot;+380&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 229,
+    &quot;Name&quot;: &quot;United Arab Emirates&quot;,
+    &quot;Code&quot;: &quot;AE&quot;,
+    &quot;DialCode&quot;: &quot;+971&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 230,
+    &quot;Name&quot;: &quot;United Kingdom&quot;,
+    &quot;Code&quot;: &quot;GB&quot;,
+    &quot;DialCode&quot;: &quot;+44&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 231,
+    &quot;Name&quot;: &quot;United States&quot;,
+    &quot;Code&quot;: &quot;US&quot;,
+    &quot;DialCode&quot;: &quot;+1&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 232,
+    &quot;Name&quot;: &quot;Uruguay&quot;,
+    &quot;Code&quot;: &quot;UY&quot;,
+    &quot;DialCode&quot;: &quot;+598&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 233,
+    &quot;Name&quot;: &quot;Uzbekistan&quot;,
+    &quot;Code&quot;: &quot;UZ&quot;,
+    &quot;DialCode&quot;: &quot;+998&quot;,
+    &quot;HasState&quot;: true
+  },
+  {
+    &quot;Id&quot;: 234,
+    &quot;Name&quot;: &quot;Vanuatu&quot;,
+    &quot;Code&quot;: &quot;VU&quot;,
+    &quot;DialCode&quot;: &quot;+678&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 235,
+    &quot;Name&quot;: &quot;Venezuela, Bolivarian Republic of Venezuela&quot;,
+    &quot;Code&quot;: &quot;VE&quot;,
+    &quot;DialCode&quot;: &quot;+58&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 236,
+    &quot;Name&quot;: &quot;Vietnam&quot;,
+    &quot;Code&quot;: &quot;VN&quot;,
+    &quot;DialCode&quot;: &quot;+84&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 237,
+    &quot;Name&quot;: &quot;Virgin Islands, British&quot;,
+    &quot;Code&quot;: &quot;VG&quot;,
+    &quot;DialCode&quot;: &quot;+1284&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 238,
+    &quot;Name&quot;: &quot;Virgin Islands, U.S.&quot;,
+    &quot;Code&quot;: &quot;VI&quot;,
+    &quot;DialCode&quot;: &quot;+1340&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 239,
+    &quot;Name&quot;: &quot;Wallis and Futuna&quot;,
+    &quot;Code&quot;: &quot;WF&quot;,
+    &quot;DialCode&quot;: &quot;+681&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 240,
+    &quot;Name&quot;: &quot;Yemen&quot;,
+    &quot;Code&quot;: &quot;YE&quot;,
+    &quot;DialCode&quot;: &quot;+967&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 241,
+    &quot;Name&quot;: &quot;Zambia&quot;,
+    &quot;Code&quot;: &quot;ZM&quot;,
+    &quot;DialCode&quot;: &quot;+260&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 242,
+    &quot;Name&quot;: &quot;Zimbabwe&quot;,
+    &quot;Code&quot;: &quot;ZW&quot;,
+    &quot;DialCode&quot;: &quot;+263&quot;,
+    &quot;HasState&quot;: false
+  },
+  {
+    &quot;Id&quot;: 243,
+    &quot;Name&quot;: &quot;Turkish Republic of Northern Cyprus&quot;,
+    &quot;Code&quot;: &quot;&quot;,
+    &quot;DialCode&quot;: &quot;+90&quot;,
+    &quot;HasState&quot;: true
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

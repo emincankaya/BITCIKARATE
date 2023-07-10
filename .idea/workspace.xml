@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCityList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCityList.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCountryList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCountryList.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/src.test.java.features.AccounV2.GetCityList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/src.test.java.features.AccounV2.GetCityList.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCityList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCityList.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCountryList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCountryList.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +141,14 @@
       <option name="presentableId" value="Default" />
       <updated>1686574701955</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1688996092012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688996092012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,5 +162,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
