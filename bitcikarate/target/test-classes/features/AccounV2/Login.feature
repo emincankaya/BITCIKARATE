@@ -4,7 +4,7 @@ Feature: Login
     Given url baseURI
     * def Wrongpassword1 = 'Test1234'
 
-    Scenario: Kullanıcı Login Pozitif
+    Scenario: Kullanici Login Pozitif
       And path 'api/Accountv2/login'
       And header apitoken = apiToken
       * def RequestBody = read('classpath:model/AccountV2/Login.json')

@@ -11,4 +11,4 @@ Feature: ChangePassword
     * request RequestBody
     And method post
     Then status 200
-    * print response
+   # * print response

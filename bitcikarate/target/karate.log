@@ -10747,3 +10747,1175 @@ src/test/java/features/AccounV2/GetCityListByState.feature:15
 ]
  
 16:48:24.077 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/Passwordchangeduration.feature
+16:51:19.563 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688997079562
+16:51:20.126 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:51:20.132 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:51:20.148 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:51:21.186 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:51:21.187 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:51:21.190 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:51:21.736 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:51:21.736 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:51:21.738 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:51:22.253 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:51:22.691 [main] INFO  com.intuit.karate - [print] [
+  1,
+  3,
+  6
+]
+ 
+16:51:23.171 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/Passwordchangeduration.feature
+16:53:53.185 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688997233183
+16:53:53.758 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:53:53.764 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:53:53.783 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:53:54.621 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:53:54.622 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:53:54.623 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:53:55.082 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:53:55.083 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:53:55.084 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:53:55.688 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:53:56.869 [main] INFO  com.intuit.karate - [print] {
+  "IsSuccess": false,
+  "Message": "Girdiğiniz şifre son 3 şifrenizden farklı olmak zorunda.",
+  "Log": {
+    "CustomerId": 606944,
+    "RequestParameteres": "{\"CustomerId\":606944,\"LanguageCode\":\"tr\",\"IPAdress\":\"10.20.2.9\",\"PasswordChangeDuration\":1,\"MustChangePassword\":false,\"UserAgent\":\"Apache-HttpClient/4.5.13 (Java/18.0.2)\"}",
+    "OldValue": {
+      "Password": [
+      ],
+      "PasswordSalt": [
+      ]
+    },
+    "NewValue": null,
+    "CustomerTransactionLogType": 204,
+    "IpAddress": "10.20.2.9",
+    "UserAgent": "Apache-HttpClient/4.5.13 (Java/18.0.2)",
+    "CommonContent": "LastThreePasswordCrash"
+  }
+}
+ 
+16:53:57.386 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/ChangePassword.feature
+16:54:20.973 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688997260972
+16:54:20.989 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^ChangePassword$
+16:54:21.517 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:54:21.524 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:54:21.540 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:54:22.395 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:54:22.396 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:54:22.398 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+16:54:23.003 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:54:23.004 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:54:23.006 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:54:23.517 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:54:24.653 [main] INFO  com.intuit.karate - [print] {
+  "IsSuccess": false,
+  "Message": "Girdiğiniz şifre son 3 şifrenizden farklı olmak zorunda.",
+  "Log": {
+    "CustomerId": 606944,
+    "RequestParameteres": "{\"CustomerId\":606944,\"LanguageCode\":\"tr\",\"IPAdress\":\"10.20.2.9\",\"PasswordChangeDuration\":1,\"MustChangePassword\":false,\"UserAgent\":\"Apache-HttpClient/4.5.13 (Java/18.0.2)\"}",
+    "OldValue": {
+      "Password": [
+      ],
+      "PasswordSalt": [
+      ]
+    },
+    "NewValue": null,
+    "CustomerTransactionLogType": 204,
+    "IpAddress": "10.20.2.9",
+    "UserAgent": "Apache-HttpClient/4.5.13 (Java/18.0.2)",
+    "CommonContent": "LastThreePasswordCrash"
+  }
+}
+ 
+16:54:25.130 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/ChangePassword.feature
+17:20:11.683 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688998811681
+17:20:11.699 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^ChangePassword$
+17:20:12.299 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:20:12.307 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:20:12.321 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+17:20:13.421 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:20:13.422 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:20:13.423 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+17:20:13.892 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:20:13.893 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:20:13.895 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+17:20:14.555 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:20:15.478 [main] INFO  com.intuit.karate - [print] {
+  "IsSuccess": false,
+  "Message": "Girdiğiniz şifre son 3 şifrenizden farklı olmak zorunda.",
+  "Log": {
+    "CustomerId": 606944,
+    "RequestParameteres": "{\"CustomerId\":606944,\"LanguageCode\":\"tr\",\"IPAdress\":\"10.20.2.9\",\"PasswordChangeDuration\":1,\"MustChangePassword\":false,\"UserAgent\":\"Apache-HttpClient/4.5.13 (Java/18.0.2)\"}",
+    "OldValue": {
+      "Password": [
+      ],
+      "PasswordSalt": [
+      ]
+    },
+    "NewValue": null,
+    "CustomerTransactionLogType": 204,
+    "IpAddress": "10.20.2.9",
+    "UserAgent": "Apache-HttpClient/4.5.13 (Java/18.0.2)",
+    "CommonContent": "LastThreePasswordCrash"
+  }
+}
+ 
+17:20:16.031 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/ChangePassword.feature
+17:26:52.651 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688999212650
+17:27:22.728 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688999242728
+17:27:22.743 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^Kullanici Login Pozitif$
+17:27:23.299 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:23.305 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:27:23.320 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+17:27:24.221 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:27:24.222 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:27:24.225 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+17:27:24.771 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:27:24.771 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:27:24.773 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+17:27:25.263 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:27:26.441 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/Login.feature
+17:28:47.327 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688999327325
+17:28:47.346 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^Kullanici Login Pozitif$
+17:28:47.935 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:28:47.941 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:28:47.956 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+17:28:48.860 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:28:48.861 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:28:48.862 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+17:28:49.356 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:28:49.356 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:28:49.358 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+17:28:49.885 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:28:50.855 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/Login.feature
+17:31:17.605 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688999477604
+17:31:17.622 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Antalya District$
+17:31:18.162 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:31:18.169 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:31:18.183 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+17:31:19.016 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:31:19.017 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:31:19.018 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+17:31:19.605 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:31:19.606 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:31:19.608 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+17:31:20.077 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:31:20.087 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/GetCityList.feature')
+17:31:20.091 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/GetCountryList.feature')
+17:31:20.598 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/GetCountryList.feature')
+17:31:21.049 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/GetCityList.feature')
+17:31:21.986 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetDistrictList.feature
+17:31:57.778 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1688999517777
+17:31:57.795 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Turkiye deki sehir$
+17:31:58.365 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:31:58.372 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:31:58.387 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+17:31:59.248 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:31:59.248 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:31:59.251 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+17:31:59.741 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:31:59.742 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:31:59.744 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+17:32:00.233 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:32:00.242 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/GetCountryList.feature')
+17:32:00.836 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/GetCountryList.feature')
+17:32:01.746 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCityList.feature
+13:39:47.116 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689071987115
+13:39:47.141 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Gecmis dogrulama$
+13:39:47.879 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:39:47.885 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:39:47.905 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:39:49.123 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:39:49.124 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:39:49.126 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:39:49.649 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:39:49.649 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:39:49.657 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:39:50.193 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:39:50.211 [main] ERROR com.intuit.karate - src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:7
+* def password = callone read('classpath:features/AccounV2/ChangePassword.feature')
+js failed:
+>>>>
+01: callone read('classpath:features/AccounV2/ChangePassword.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:8 Expected ; but found read
+callone read('classpath:features/AccounV2/ChangePassword.feature')
+        ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1251)
+
+src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:7
+13:39:50.737 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:41:20.069 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072080068
+13:41:20.082 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Gecmis dogrulama$
+13:41:20.585 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:41:20.590 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:41:20.603 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:41:21.485 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:41:21.486 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:41:21.488 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:41:22.199 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:41:22.201 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:41:22.202 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:41:22.716 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:41:22.730 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:41:23.406 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:41:23.414 [main] ERROR com.intuit.karate - src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:11
+And param languageCode = tr
+js failed:
+>>>>
+01: tr
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "tr" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:11
+13:41:23.939 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:42:06.515 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072126514
+13:42:06.529 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Gecmis dogrulama$
+13:42:07.037 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:42:07.042 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:42:07.057 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:42:07.823 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:42:07.823 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:42:07.825 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:42:08.690 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:42:08.690 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:42:08.692 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:42:09.170 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:42:09.179 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:42:09.881 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:42:11.361 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 180525,
+    "LogDatetime": "2023-07-11T13:42:09.813",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 180523,
+    "LogDatetime": "2023-07-11T13:42:07.883",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180522,
+    "LogDatetime": "2023-07-11T13:41:23.437",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 180520,
+    "LogDatetime": "2023-07-11T13:41:21.523",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180518,
+    "LogDatetime": "2023-07-11T13:39:49.133",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 179754,
+    "LogDatetime": "2023-07-10T18:25:38.12",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179752,
+    "LogDatetime": "2023-07-10T18:25:20.96",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179750,
+    "LogDatetime": "2023-07-10T18:20:09.76",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179748,
+    "LogDatetime": "2023-07-10T18:19:19.417",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179747,
+    "LogDatetime": "2023-07-10T18:18:46.723",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179745,
+    "LogDatetime": "2023-07-10T18:18:44.977",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179743,
+    "LogDatetime": "2023-07-10T18:18:15.983",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179741,
+    "LogDatetime": "2023-07-10T18:09:05.52",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179739,
+    "LogDatetime": "2023-07-10T18:07:20.437",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179737,
+    "LogDatetime": "2023-07-10T17:31:58.89",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179735,
+    "LogDatetime": "2023-07-10T17:31:18.677",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179734,
+    "LogDatetime": "2023-07-10T17:28:50.04",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179732,
+    "LogDatetime": "2023-07-10T17:28:48.533",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179731,
+    "LogDatetime": "2023-07-10T17:27:25.433",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179729,
+    "LogDatetime": "2023-07-10T17:27:23.847",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179728,
+    "LogDatetime": "2023-07-10T17:20:14.887",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 179726,
+    "LogDatetime": "2023-07-10T17:20:13.103",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179725,
+    "LogDatetime": "2023-07-10T17:02:44.85",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.10"
+  },
+  {
+    "Id": 179724,
+    "LogDatetime": "2023-07-10T16:54:24.327",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 179722,
+    "LogDatetime": "2023-07-10T16:54:22.053",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179721,
+    "LogDatetime": "2023-07-10T16:53:56.557",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 179719,
+    "LogDatetime": "2023-07-10T16:53:54.29",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179717,
+    "LogDatetime": "2023-07-10T16:51:20.767",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179715,
+    "LogDatetime": "2023-07-10T16:48:20.237",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.10"
+  },
+  {
+    "Id": 179713,
+    "LogDatetime": "2023-07-10T16:16:07.457",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179711,
+    "LogDatetime": "2023-07-10T16:14:45.58",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179709,
+    "LogDatetime": "2023-07-10T16:13:43.787",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179707,
+    "LogDatetime": "2023-07-10T16:13:23.787",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179703,
+    "LogDatetime": "2023-07-10T16:11:24.893",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179701,
+    "LogDatetime": "2023-07-10T13:25:58.397",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179699,
+    "LogDatetime": "2023-07-10T13:25:43.133",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179697,
+    "LogDatetime": "2023-07-10T13:24:18.803",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179695,
+    "LogDatetime": "2023-07-10T13:24:02.323",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179693,
+    "LogDatetime": "2023-07-10T13:23:08.6",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179691,
+    "LogDatetime": "2023-07-10T13:22:39.92",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179689,
+    "LogDatetime": "2023-07-10T13:22:23.567",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179687,
+    "LogDatetime": "2023-07-10T13:20:18.5",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179685,
+    "LogDatetime": "2023-07-10T13:18:11.157",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179683,
+    "LogDatetime": "2023-07-10T13:17:56.223",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179681,
+    "LogDatetime": "2023-07-10T13:14:31.347",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179680,
+    "LogDatetime": "2023-07-10T12:42:08.413",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179678,
+    "LogDatetime": "2023-07-10T12:41:22.767",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179676,
+    "LogDatetime": "2023-07-10T12:41:01.59",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179674,
+    "LogDatetime": "2023-07-10T12:38:02.383",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179673,
+    "LogDatetime": "2023-07-10T12:28:08.25",
+    "Channel": "Mobile",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  }
+]
+ 
+13:42:11.854 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:43:38.789 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072218788
+13:43:38.805 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Gecmis dogrulama$
+13:43:39.325 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:43:39.332 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:43:39.345 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:43:40.160 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:43:40.161 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:43:40.162 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:43:40.649 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:43:40.649 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:43:40.652 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:43:41.317 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:43:41.329 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:43:42.024 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:43:43.570 [main] INFO  com.intuit.karate - [print] Şifre değiştirme işlemi onaylanmadı. 
+13:43:44.089 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:44:35.880 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072275878
+13:44:35.896 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Gecmis dogrulama$
+13:44:36.459 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:44:36.465 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:44:36.481 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:44:38.083 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:44:38.083 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:44:38.085 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:44:38.523 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:44:38.524 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:44:38.526 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:44:38.969 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:44:38.979 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:44:39.458 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:44:40.178 [main] INFO  com.intuit.karate - [print] Şifre değiştirme işlemi onaylanmadı. 
+13:44:40.701 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:45:30.050 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072330049
+13:45:30.064 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 12 - ^Gecmis dogrulama\(password\)$
+13:45:30.590 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:45:30.595 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:45:30.610 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:45:31.443 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:45:31.445 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:45:31.446 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:45:31.907 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:45:31.907 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:45:31.909 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:45:32.379 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:45:32.388 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:45:32.856 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:45:33.670 [main] INFO  com.intuit.karate - [print] Şifre değiştirme işlemi onaylanmadı. 
+13:45:34.152 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:47:58.860 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072478859
+13:47:58.881 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^gecmis dogrulma\(login\)$
+13:47:59.504 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:59.511 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:47:59.525 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:48:00.619 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:48:00.620 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:48:00.621 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:48:01.484 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:48:01.484 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:48:01.487 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:48:02.653 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:48:02.671 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/Login.feature')
+13:48:04.422 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/Login.feature')
+13:48:05.886 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 180537,
+    "LogDatetime": "2023-07-11T13:48:03.297",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180535,
+    "LogDatetime": "2023-07-11T13:48:00.63",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180534,
+    "LogDatetime": "2023-07-11T13:45:32.9",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 180532,
+    "LogDatetime": "2023-07-11T13:45:31.46",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180531,
+    "LogDatetime": "2023-07-11T13:44:39.49",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 180529,
+    "LogDatetime": "2023-07-11T13:44:38.087",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180528,
+    "LogDatetime": "2023-07-11T13:43:42.033",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 180526,
+    "LogDatetime": "2023-07-11T13:43:40.193",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180525,
+    "LogDatetime": "2023-07-11T13:42:09.813",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 180523,
+    "LogDatetime": "2023-07-11T13:42:07.883",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180522,
+    "LogDatetime": "2023-07-11T13:41:23.437",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 180520,
+    "LogDatetime": "2023-07-11T13:41:21.523",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 180518,
+    "LogDatetime": "2023-07-11T13:39:49.133",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.139"
+  },
+  {
+    "Id": 179754,
+    "LogDatetime": "2023-07-10T18:25:38.12",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179752,
+    "LogDatetime": "2023-07-10T18:25:20.96",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179750,
+    "LogDatetime": "2023-07-10T18:20:09.76",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179748,
+    "LogDatetime": "2023-07-10T18:19:19.417",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179747,
+    "LogDatetime": "2023-07-10T18:18:46.723",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179745,
+    "LogDatetime": "2023-07-10T18:18:44.977",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179743,
+    "LogDatetime": "2023-07-10T18:18:15.983",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179741,
+    "LogDatetime": "2023-07-10T18:09:05.52",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179739,
+    "LogDatetime": "2023-07-10T18:07:20.437",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.7"
+  },
+  {
+    "Id": 179737,
+    "LogDatetime": "2023-07-10T17:31:58.89",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179735,
+    "LogDatetime": "2023-07-10T17:31:18.677",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179734,
+    "LogDatetime": "2023-07-10T17:28:50.04",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179732,
+    "LogDatetime": "2023-07-10T17:28:48.533",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179731,
+    "LogDatetime": "2023-07-10T17:27:25.433",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179729,
+    "LogDatetime": "2023-07-10T17:27:23.847",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179728,
+    "LogDatetime": "2023-07-10T17:20:14.887",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 179726,
+    "LogDatetime": "2023-07-10T17:20:13.103",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179725,
+    "LogDatetime": "2023-07-10T17:02:44.85",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.10"
+  },
+  {
+    "Id": 179724,
+    "LogDatetime": "2023-07-10T16:54:24.327",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 179722,
+    "LogDatetime": "2023-07-10T16:54:22.053",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179721,
+    "LogDatetime": "2023-07-10T16:53:56.557",
+    "Channel": "Web",
+    "TransactionType": "Şifre değiştirme işlemi onaylanmadı.",
+    "IPAddress": "10.20.2.9"
+  },
+  {
+    "Id": 179719,
+    "LogDatetime": "2023-07-10T16:53:54.29",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179717,
+    "LogDatetime": "2023-07-10T16:51:20.767",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179715,
+    "LogDatetime": "2023-07-10T16:48:20.237",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.10"
+  },
+  {
+    "Id": 179713,
+    "LogDatetime": "2023-07-10T16:16:07.457",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179711,
+    "LogDatetime": "2023-07-10T16:14:45.58",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179709,
+    "LogDatetime": "2023-07-10T16:13:43.787",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179707,
+    "LogDatetime": "2023-07-10T16:13:23.787",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179703,
+    "LogDatetime": "2023-07-10T16:11:24.893",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.153"
+  },
+  {
+    "Id": 179701,
+    "LogDatetime": "2023-07-10T13:25:58.397",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179699,
+    "LogDatetime": "2023-07-10T13:25:43.133",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179697,
+    "LogDatetime": "2023-07-10T13:24:18.803",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179695,
+    "LogDatetime": "2023-07-10T13:24:02.323",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179693,
+    "LogDatetime": "2023-07-10T13:23:08.6",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179691,
+    "LogDatetime": "2023-07-10T13:22:39.92",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179689,
+    "LogDatetime": "2023-07-10T13:22:23.567",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  },
+  {
+    "Id": 179687,
+    "LogDatetime": "2023-07-10T13:20:18.5",
+    "Channel": "Web",
+    "TransactionType": "Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.",
+    "IPAddress": "10.81.234.148"
+  }
+]
+ 
+13:48:06.385 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:49:05.268 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072545267
+13:49:05.282 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^gecmis dogrulma\(login\)$
+13:49:05.820 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:05.828 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:49:05.844 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:49:07.782 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:49:07.782 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:49:07.785 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:49:08.228 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:49:08.228 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:49:08.230 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:49:08.816 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:49:08.827 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/Login.feature')
+13:49:09.963 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/Login.feature')
+13:49:11.991 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:49:45.219 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072585217
+13:49:45.233 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14 - ^Gecmis dogrulama\(password\)$
+13:49:45.762 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:45.770 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:49:45.785 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:49:46.807 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:49:46.807 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:49:46.809 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:49:47.380 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:49:47.381 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:49:47.383 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:49:48.101 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:49:49.026 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:49:49.732 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:49:49.733 [main] INFO  com.intuit.karate - [print] Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi. 
+13:49:49.739 [main] ERROR com.intuit.karate - src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:18
+* match mesaj == "Şifre değiştirme işlemi onaylanmadı."
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.'
+  'Şifre değiştirme işlemi onaylanmadı.'
+
+src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:18
+13:49:50.226 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:49:56.795 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072596794
+13:49:56.809 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^gecmis dogrulma\(login\)$
+13:49:57.317 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:57.323 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:49:57.337 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:49:58.272 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:49:58.272 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:49:58.275 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:49:58.803 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:49:58.803 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:49:58.806 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:49:59.253 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:49:59.921 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/Login.feature')
+13:50:00.884 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/Login.feature')
+13:50:01.367 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:50:12.387 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072612385
+13:50:12.402 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14 - ^Gecmis dogrulama\(password\)$
+13:50:12.923 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:50:12.929 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:50:12.943 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:50:13.779 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:50:13.780 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:50:13.782 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:50:14.267 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:50:14.268 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:50:14.269 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:50:14.720 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:50:15.660 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:50:16.154 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:50:16.162 [main] ERROR com.intuit.karate - src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:17
+* match mesaj == "Şifre değiştirme işlemi onaylanmadı."
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Kullanıcı adı ve şifre giriş doğrulaması başarıyla gerçekleştirildi.'
+  'Şifre değiştirme işlemi onaylanmadı.'
+
+src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature:17
+13:50:16.650 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:50:49.838 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072649837
+13:50:49.855 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13 - ^Gecmis dogrulama\(password\)$
+13:50:50.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:50:50.367 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:50:50.379 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:50:51.147 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:50:51.148 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:50:51.149 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:50:51.592 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:50:51.592 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:50:51.594 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:50:52.060 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:50:52.070 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:50:52.608 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:50:53.883 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:51:05.496 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072665495
+13:51:05.511 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^gecmis dogrulma\(login\)$
+13:51:06.033 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:51:06.039 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:51:06.053 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:51:06.866 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:51:06.867 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:51:06.869 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:51:07.428 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:51:07.428 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:51:07.430 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:51:08.037 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:51:08.049 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/Login.feature')
+13:51:09.373 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/Login.feature')
+13:51:10.840 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:51:14.821 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072674820
+13:51:14.835 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13 - ^Gecmis dogrulama\(password\)$
+13:51:15.350 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:51:15.356 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:51:15.368 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:51:16.146 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:51:16.146 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:51:16.149 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:51:16.609 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:51:16.610 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:51:16.612 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:51:17.323 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:51:17.334 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:51:17.915 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:51:19.227 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+13:51:24.789 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689072684787
+13:51:25.344 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:51:25.351 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:51:25.365 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:51:26.141 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:51:26.142 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:51:26.144 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+13:51:27.087 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:51:27.089 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:51:27.091 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:51:27.843 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:51:27.853 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:51:28.435 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+13:51:29.099 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:51:29.104 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/Login.feature')
+13:51:29.988 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/Login.feature')
+13:51:31.200 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
+15:44:02.547 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1689079442546
+15:44:03.068 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:44:03.075 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:44:03.089 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:44:04.065 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:44:04.065 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:44:04.067 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 16: create_token_caller2
+15:44:04.523 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:44:04.524 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:44:04.526 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:44:05.087 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:44:05.099 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+15:44:05.882 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/ChangePassword.feature')
+15:44:07.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:44:07.341 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:features/AccounV2/Login.feature')
+15:44:08.316 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:features/AccounV2/Login.feature')
+15:44:09.461 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature
