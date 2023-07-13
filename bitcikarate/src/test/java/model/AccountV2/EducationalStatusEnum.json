@@ -1,0 +1,7 @@
+{
+  "PrimaryEducation": 1,
+  "HighSchool": 2,
+  "FoundationDegree": 3,
+  "University": 4,
+  "Postgraduate": 5
+}
