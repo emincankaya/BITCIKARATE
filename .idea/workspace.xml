@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetNotificationSettings.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/SetNotificationSettings.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/model/AccountV2/SetNotificationSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_07_2023_16_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_07_2023_16_19__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/src.test.java.features.AccounV2.GetCustomerTransactionalLogHistory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/src.test.java.features.AccounV2.GetCustomerTransactionalLogHistory.karate-json.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,17 +35,19 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: MonthlyEarningEnum">
-    <configuration name="Feature: GetCustomerTransactionalLogHistory" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Kullanıcı Logout">
+    <configuration name="Scenario: GetNotificationSettings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetNotificationSettings.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: GetCustomerTransactionalLogHistory" />
+      <option name="NAME_FILTER" value="^GetNotificationSettings$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^GetNotificationSettings$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: GetNotificationSettings" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -53,15 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: EducationalStatusEnum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanıcı Logout ApıToken Olmadan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/EducationalStatusEnum.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^EducationalStatusEnum$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^EducationalStatusEnum$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: EducationalStatusEnum" />
+      <option name="NAME_FILTER" value="^Kullanıcı Logout ApıToken Olmadan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanıcı Logout ApıToken Olmadan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı Logout ApıToken Olmadan" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -73,15 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: MonetaryIncomeEnum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanıcı Logout Negatıf" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/MonetaryIncomeEnum.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^MonetaryIncomeEnum$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^MonetaryIncomeEnum$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: MonetaryIncomeEnum" />
+      <option name="NAME_FILTER" value="^Kullanıcı Logout Negatıf$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanıcı Logout Negatıf$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı Logout Negatıf" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -93,15 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: MonthlyEarningEnum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanıcı Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/MonthlyEarningEnum.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^MonthlyEarningEnum$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^MonthlyEarningEnum$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: MonthlyEarningEnum" />
+      <option name="NAME_FILTER" value="^Kullanıcı Logout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanıcı Logout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı Logout" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -113,15 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: StapleEarnerEnum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: SetNotificationSettings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/StapleEarnerEnum.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/SetNotificationSettings.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^StapleEarnerEnum$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^StapleEarnerEnum$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: StapleEarnerEnum" />
+      <option name="NAME_FILTER" value="^SetNotificationSettings$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^SetNotificationSettings$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: SetNotificationSettings" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: MonthlyEarningEnum" />
-        <item itemvalue="Cucumber Java.Scenario: MonetaryIncomeEnum" />
-        <item itemvalue="Cucumber Java.Scenario: StapleEarnerEnum" />
-        <item itemvalue="Cucumber Java.Scenario: EducationalStatusEnum" />
-        <item itemvalue="Cucumber Java.Feature: GetCustomerTransactionalLogHistory" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanıcı Logout" />
+        <item itemvalue="Cucumber Java.Scenario: GetNotificationSettings" />
+        <item itemvalue="Cucumber Java.Scenario: SetNotificationSettings" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanıcı Logout ApıToken Olmadan" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanıcı Logout Negatıf" />
       </list>
     </recent_temporary>
   </component>
@@ -151,16 +157,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686574701955</updated>
+      <workItem from="1689252912534" duration="918000" />
     </task>
-    <task id="LOCAL-00001" summary="commit">
-      <created>1688996092012</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1688996092012</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -173,9 +175,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

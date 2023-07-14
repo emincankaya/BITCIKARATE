@@ -1,0 +1,14 @@
+{
+  "ApprovalWithdrawal": null,
+  "ApprovalNewDevice": null,
+  "NoticeMailMoneyWithdrawal": true,
+  "NoticeMailMoneyDeposit": true,
+  "NoticeMailNewDeviceLogin": null,
+  "NoticeMoneyWithdrawal": true,
+  "NoticeMoneyDeposit": true,
+  "NoticeCreateOrderTrade": true,
+  "NoticeCompletePartialOrderTrade": null,
+  "NoticeCompleteOrderTrade": true,
+  "NoticeCancelOrderTrade": true,
+  "LanguageCode": "tr"
+}
