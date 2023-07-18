@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetNotificationSettings.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/SetNotificationSettings.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/model/AccountV2/SetNotificationSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_07_2023_16_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_07_2023_16_19__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Getcustomerinfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Getcustomerinfo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/Getcustomerinfo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/Getcustomerinfo.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +34,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Kullanıcı Logout">
-    <configuration name="Scenario: GetNotificationSettings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Assets">
+    <configuration name="Scenario: Assets" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetNotificationSettings.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Account/Assets.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^GetNotificationSettings$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^GetNotificationSettings$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: GetNotificationSettings" />
+      <option name="NAME_FILTER" value="^Assets$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Assets$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Assets" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -59,15 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Kullanıcı Logout ApıToken Olmadan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: DocumentRejectReasonEnum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/DocumentRejectReasonEnum.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Kullanıcı Logout ApıToken Olmadan$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanıcı Logout ApıToken Olmadan$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı Logout ApıToken Olmadan" />
+      <option name="NAME_FILTER" value="^DocumentRejectReasonEnum$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^DocumentRejectReasonEnum$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: DocumentRejectReasonEnum" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -79,15 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Kullanıcı Logout Negatıf" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: GetDocumentTypes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Documentation/GetDocumentTypes.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Kullanıcı Logout Negatıf$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanıcı Logout Negatıf$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı Logout Negatıf" />
+      <option name="NAME_FILTER" value="^GetDocumentTypes$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^GetDocumentTypes$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: GetDocumentTypes" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +95,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Kullanıcı Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanıcı Bilgileri Kontrol Et" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Logout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Getcustomerinfo.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Kullanıcı Logout$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanıcı Logout$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı Logout" />
+      <option name="NAME_FILTER" value="^Kullanıcı Bilgileri Kontrol Et$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanıcı Bilgileri Kontrol Et$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı Bilgileri Kontrol Et" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,15 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: SetNotificationSettings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanici Bilgileri Kontrol Et" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/SetNotificationSettings.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Getcustomerinfo.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^SetNotificationSettings$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^SetNotificationSettings$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: SetNotificationSettings" />
+      <option name="NAME_FILTER" value="^Kullanici Bilgileri Kontrol Et$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanici Bilgileri Kontrol Et$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici Bilgileri Kontrol Et" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Kullanıcı Logout" />
-        <item itemvalue="Cucumber Java.Scenario: GetNotificationSettings" />
-        <item itemvalue="Cucumber Java.Scenario: SetNotificationSettings" />
-        <item itemvalue="Cucumber Java.Scenario: Kullanıcı Logout ApıToken Olmadan" />
-        <item itemvalue="Cucumber Java.Scenario: Kullanıcı Logout Negatıf" />
+        <item itemvalue="Cucumber Java.Scenario: Assets" />
+        <item itemvalue="Cucumber Java.Scenario: DocumentRejectReasonEnum" />
+        <item itemvalue="Cucumber Java.Scenario: GetDocumentTypes" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici Bilgileri Kontrol Et" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanıcı Bilgileri Kontrol Et" />
       </list>
     </recent_temporary>
   </component>

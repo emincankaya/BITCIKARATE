@@ -1,0 +1,18 @@
+{
+  "Resolution": 1,
+  "WrongDocument": 2,
+  "NoChip": 3,
+  "NotSeeHand": 4,
+  "NoPaper": 5,
+  "DiffPerson": 6,
+  "Faulty": 7,
+  "ClosingIdentityInformation": 9,
+  "PetitionError": 10,
+  "NoID": 11,
+  "IdentityType": 12,
+  "SurnameDispute": 13,
+  "WornIdentity": 14,
+  "ResidenceCertificateValidityDate": 15,
+  "FaceNotSeenClearly": 16,
+  "VoluntarilyRejected": 17
+}
