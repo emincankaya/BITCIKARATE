@@ -8,13 +8,14 @@
 
   @create_token_caller
   Scenario: Create Token
-    * def RequestBody = {"EmailOrPhone":"5451320507","Password":"QUpBYlRCUVFQN3ZEdjJlc8XajYUjy8FzumC4cX3Q0So=","SmsMobileKey":"","AuthenticationCode":"","LanguageCode":"en"}
+    * def RequestBody = {"EmailOrPhone": "5451320507","Password": "","EPassword": "QUpBYlRCUVFQN3ZEdjJlc8XajYUjy8FzumC4cX3Q0So=","SmsMobileKey": "","AuthenticationCode": "","LanguageCode": "tr" }
     And request RequestBody
     When method post
     Then status 200
+
   @create_token_caller2
   Scenario: Create Token
-    * def RequestBody = {"EmailOrPhone":"TestTeam20@test.com","Password":"QUpBYlRCUVFQN3ZEdjJlc65XlZyxENSBOsLMZibw990=","SmsMobileKey":"","AuthenticationCode":"","LanguageCode":"en"}
+    * def RequestBody = {"EmailOrPhone": "TestTeam20@test.com","Password": "","EPassword": "QUpBYlRCUVFQN3ZEdjJlc65XlZyxENSBOsLMZibw990=","SmsMobileKey": "","AuthenticationCode": "","LanguageCode": "tr" }
     And request RequestBody
     When method post
     Then status 200
