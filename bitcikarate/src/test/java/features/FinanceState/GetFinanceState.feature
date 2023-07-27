@@ -11,4 +11,8 @@ Feature: GetFinanceState
       And request RequestBody
       When method post
       Then status 200
-      * print response
+     * def bakiye = get response.CashMoneyBalanceList[?(@.CurrencyCode=="TRY")].Amount
+     * def tamSayi = Math.floor(bakiye)
+     #* print tamSayi
+     #* print response
+

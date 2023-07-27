@@ -1,0 +1,13 @@
+{
+  "Amount": 100,
+  "CurrencyId": 1,
+  "IsCompleteProcess": false,
+  "IbanNo": "TR360001002146976030965003",
+  "BankAccount": null,
+  "BankBranch": null,
+  "BankCode": null,
+  "PixKey": null,
+  "AddWhiteList": false,
+  "WhiteListName": "iban test",
+  "LanguageCode": "tr"
+}
