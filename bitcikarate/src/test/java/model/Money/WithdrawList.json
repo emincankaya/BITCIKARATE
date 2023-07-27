@@ -1,0 +1,23 @@
+{
+  "PageNumber": 1,
+  "Size":100 ,
+  "DataCount": 0,
+  "StartDate": "2023-07-26T14:05:38.089Z",
+  "EndDate": "2023-07-26T14:05:38.089Z",
+  "Filters": [
+    {
+      "FilterType": 15,
+      "FilterValue": "1"
+    }
+  ],
+  "IsActive": true,
+  "Sort": {
+    "SortType": "string",
+    "SortValue": "string"
+  },
+  "Filter": "string",
+  "CoinId": 0,
+  "CurrencyId": 0,
+  "CustomerCount": 0,
+  "LanguageCode": "tr"
+}
