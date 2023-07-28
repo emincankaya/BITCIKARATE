@@ -1,0 +1,14 @@
+{
+  "PageNumber": 1,
+  "Size": 200,
+  "StartDate": "2022-07-28",
+  "EndDate": "2023-07-28",
+  "Filters": [
+    {
+      "FilterType": 15,
+      "FilterValue": "1"
+    }
+  ],
+  "IsActive": false,
+  "LanguageCode": "tr"
+}
