@@ -166,7 +166,7 @@ public class DBUtils {private static Connection connection;
             e.printStackTrace();
         }
         try {
-            resultSet = statement.executeQuery(query);
+            statement.execute(query);
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
