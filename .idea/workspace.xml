@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/caller/DBActions/DB.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/helpers/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_07_2023_16_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_07_2023_16_19__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_9_2023_7_59_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_9_2023_7_59_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_9_2023_8_00_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_9_2023_8_00_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/bitcikarate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/bitcikarate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-labs-logo-ring.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-labs-logo-ring.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/Resemble.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/Resemble.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/karate-report.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/karate-report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/karate-report.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/karate-report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +34,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Karate" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2R6dwK1waEKsnGrgJhwgbBANqxI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,7 +60,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: DepositList">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Update Customer Coin Balance">
+    <configuration name="Feature: DB" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/caller/DBActions/DB.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="bitcikarate" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: DB" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: DepositList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Money/DepositList.feature" />
@@ -53,15 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: GetFinanceState" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Update Customer Coin Balance" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/FinanceState/GetFinanceState.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/caller/DBActions/DB.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^GetFinanceState$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^GetFinanceState$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: GetFinanceState" />
+      <option name="NAME_FILTER" value="^Update Customer Coin Balance$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Update Customer Coin Balance$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Update Customer Coin Balance" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,26 +129,6 @@
       <option name="NAME_FILTER" value="^Withdraw bakiyenden fazlasi cekilmez$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Withdraw bakiyenden fazlasi cekilmez$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Withdraw bakiyenden fazlasi cekilmez" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Withdraw minimum çekme miktari" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Money/Withdraw.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Withdraw minimum çekme miktari$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Withdraw minimum çekme miktari$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Withdraw minimum çekme miktari" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Update Customer Coin Balance" />
+        <item itemvalue="Cucumber Java.Feature: DB" />
         <item itemvalue="Cucumber Java.Scenario: DepositList" />
         <item itemvalue="Cucumber Java.Scenario: WithdrawList IsActive= true" />
         <item itemvalue="Cucumber Java.Scenario: Withdraw bakiyenden fazlasi cekilmez" />
-        <item itemvalue="Cucumber Java.Scenario: GetFinanceState" />
-        <item itemvalue="Cucumber Java.Scenario: Withdraw minimum çekme miktari" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +195,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

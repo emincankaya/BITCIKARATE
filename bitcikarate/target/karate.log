@@ -12378,3 +12378,207 @@ src/test/java/features/Money/DepositList.feature:13
 15:51:21.133 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
 15:51:22.093 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
 15:51:23.225 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Money/DepositList.feature
+15:16:36.116 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690805796113
+15:16:36.147 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:16:37.137 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:37.147 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:37.178 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:16:38.783 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:38.784 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:38.786 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:16:39.625 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:39.625 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:39.633 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:16:40.557 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:40.576 [main] ERROR com.intuit.karate - src/test/java/caller/DBActions/DB.feature:4
+* def  DbConnection = Java.type('helpers.DBUtils.createConnection()')
+js failed:
+>>>>
+01: Java.type('helpers.DBUtils.createConnection()')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class helpers.DBUtils.createConnection() is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/caller/DBActions/DB.feature:4
+15:16:41.251 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:22:24.621 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690806144619
+15:22:24.645 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:22:25.326 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:22:25.333 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:22:25.353 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:22:26.695 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:22:26.696 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:22:26.698 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:22:28.579 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:22:28.581 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:22:28.583 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:22:29.288 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:22:44.365 [main] ERROR com.intuit.karate - src/test/java/caller/DBActions/DB.feature:7
+* def customer = DbConnection.getCellValue(query)
+js failed:
+>>>>
+01: DbConnection.getCellValue(query)
+<<<<
+org.graalvm.polyglot.PolyglotException
+- helpers.DBUtils.executeQuery(DBUtils.java:163)
+- helpers.DBUtils.getQueryResultList(DBUtils.java:75)
+- helpers.DBUtils.getCellValue(DBUtils.java:46)
+- <js>.:program(Unnamed:1)
+
+src/test/java/caller/DBActions/DB.feature:7
+15:22:44.934 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:25:20.111 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690806320110
+15:25:20.135 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:25:20.808 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:25:20.815 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:25:20.836 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:25:21.967 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:25:21.968 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:25:21.970 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:25:22.549 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:25:22.550 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:25:22.552 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:25:23.172 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:25:24.454 [main] ERROR com.intuit.karate - src/test/java/caller/DBActions/DB.feature:7
+* def customer = DbConnection.getCellValue(query)
+js failed:
+>>>>
+01: DbConnection.getCellValue(query)
+<<<<
+org.graalvm.polyglot.PolyglotException
+- helpers.DBUtils.executeQuery(DBUtils.java:163)
+- helpers.DBUtils.getQueryResultList(DBUtils.java:75)
+- helpers.DBUtils.getCellValue(DBUtils.java:46)
+- <js>.:program(Unnamed:1)
+
+src/test/java/caller/DBActions/DB.feature:7
+15:25:24.996 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:25:59.348 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690806359347
+15:25:59.370 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:26:00.068 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:00.076 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:26:00.095 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:26:01.306 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:26:01.307 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:26:01.310 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:26:01.908 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:26:01.908 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:26:01.910 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:26:02.542 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:26:03.670 [main] INFO  com.intuit.karate - [print] Ahmet 
+15:26:04.198 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:38:11.112 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690807091110
+15:38:11.144 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:38:11.904 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:11.922 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:38:11.948 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:38:13.566 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:38:13.566 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:38:13.568 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:38:14.239 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:38:14.240 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:38:14.242 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:38:15.181 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:38:16.262 [main] INFO  com.intuit.karate - [print] Ahmet 
+15:38:16.875 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:43:18.279 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690807398277
+15:43:18.304 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:43:19.014 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:43:19.021 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:43:19.043 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:43:20.314 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:43:20.316 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:43:20.318 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:43:21.215 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:43:21.215 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:43:21.218 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:43:21.874 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:43:23.336 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:44:24.516 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690807464515
+15:44:24.544 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:44:25.245 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:44:25.253 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:44:25.274 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:44:26.650 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:44:26.651 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:44:26.653 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:44:27.351 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:44:27.352 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:44:27.354 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:44:27.996 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:44:29.360 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:46:07.382 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690807567380
+15:46:07.409 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:46:08.141 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:08.148 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:46:08.170 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:46:09.411 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:46:09.412 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:46:09.414 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:46:10.042 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:46:10.043 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:46:10.045 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:46:10.752 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:46:12.176 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:47:16.618 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690807636616
+15:47:16.644 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:47:17.357 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:17.364 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:47:17.388 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:47:18.638 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:47:18.638 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:47:18.641 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:47:19.270 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:47:19.271 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:47:19.272 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:47:19.968 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:47:20.639 [main] ERROR com.intuit.karate - src/test/java/caller/DBActions/DB.feature:7
+* DbConnection.executeQuery(query)
+js failed:
+>>>>
+01: DbConnection.executeQuery(query)
+<<<<
+org.graalvm.polyglot.PolyglotException
+- helpers.DBUtils.executeQuery(DBUtils.java:169)
+- <js>.:program(Unnamed:1)
+
+src/test/java/caller/DBActions/DB.feature:7
+15:47:21.211 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:49:59.861 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690807799859
+15:49:59.889 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:50:00.610 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:50:00.618 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:50:00.637 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:50:01.812 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:50:01.813 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:50:01.815 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:50:02.429 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:50:02.430 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:50:02.432 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:50:03.084 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:50:04.506 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:51:26.257 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690807886255
+15:51:26.992 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:51:27.000 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:51:27.020 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:51:28.238 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:51:28.239 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:51:28.241 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:51:28.870 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:51:28.871 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:51:28.873 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:51:29.527 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:51:31.342 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:54:01.758 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690808041756
+15:54:01.787 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
+15:54:02.494 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:54:02.501 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:54:02.522 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:54:03.927 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:54:03.928 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:54:03.930 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:54:04.597 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:54:04.597 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:54:04.599 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:54:06.334 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:54:08.253 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
