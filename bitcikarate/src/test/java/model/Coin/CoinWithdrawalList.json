@@ -1,0 +1,14 @@
+{
+  "IsActive": false,
+  "StartDate": "2023-01-31T13:30:55.586Z",
+  "Filters": [
+    {
+      "FilterType": 11,
+      "FilterValue": "29"
+    }
+  ],
+  "PageNumber": 1,
+  "Size": 1000,
+  "EndDate": "2023-07-31T13:30:55.586Z",
+  "LanguageCode": "tr"
+}

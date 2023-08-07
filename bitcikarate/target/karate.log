@@ -12378,6 +12378,438 @@ src/test/java/features/Money/DepositList.feature:13
 15:51:21.133 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
 15:51:22.093 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
 15:51:23.225 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Money/DepositList.feature
+17:33:54.526 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690554834524
+17:33:54.555 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^GetFinanceState$
+17:33:55.413 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:33:55.421 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:33:55.444 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+17:33:57.382 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+17:33:57.384 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:33:57.387 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+17:33:58.095 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+17:33:58.096 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:33:58.098 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+17:33:59.049 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+17:34:01.440 [main] INFO  com.intuit.karate - [print] 95749 
+17:34:02.030 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/FinanceState/GetFinanceState.feature
+13:44:47.208 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690800287207
+13:44:47.224 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Converter History List$
+13:44:47.975 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:44:47.975 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:44:48.007 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+13:44:49.692 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+13:44:49.692 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:44:49.692 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+13:44:50.344 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+13:44:50.344 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:44:50.344 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+13:44:51.204 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+13:44:51.794 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Name": "Kriptokoin",
+    "Code": "KRIPTO",
+    "Balance": 30.0,
+    "ConvertedCode": "BITCI",
+    "ConvertedBalance": 0.212314,
+    "CreateDate": "2023-06-07T15:02:31.843"
+  }
+]
+ 
+13:44:52.333 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Converter/HistoryList.feature
+16:20:51.346 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690809651346
+16:20:51.361 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^CoinGetWithdrawal$
+16:20:51.990 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:20:51.996 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:20:52.013 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:20:53.473 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:20:53.473 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:20:53.473 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+16:20:54.207 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:20:54.207 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:20:54.207 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:20:54.844 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:20:55.400 [main] INFO  com.intuit.karate - [print] {
+  "CoinBalancePrice": 1395533.2637894954500000000000,
+  "CoinChainNetworkList": [
+    {
+      "CoinChainNetworkId": 29,
+      "ChainNetworkName": "Bitci",
+      "ChainNetworkCode": "BRC20",
+      "DepositCommission": 0.0,
+      "DepositLowerLimit": 0,
+      "WithdrawalCommission": 10.0,
+      "WithdrawalLowerLimit": 0.0,
+      "DecimalSize": 0
+    }
+  ]
+}
+ 
+16:20:55.908 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/GetWithdrawal.feature
+16:25:59.175 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690809959174
+16:25:59.197 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^CoinWithdrawalList$
+16:25:59.818 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:25:59.831 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:25:59.834 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:26:00.993 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:26:00.993 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:26:00.993 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+16:26:01.518 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:26:01.518 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:26:01.518 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:26:02.105 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:26:02.121 [main] ERROR com.intuit.karate - src/test/java/features/Coin/CoinWithdrawalList.feature:11
+* request = RequestBody
+js failed:
+>>>>
+01: = RequestBody
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Expected an operand but found =
+= RequestBody
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2062)
+- com.intuit.karate.core.ScenarioEngine.request(ScenarioEngine.java:533)
+
+src/test/java/features/Coin/CoinWithdrawalList.feature:11
+16:26:02.599 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/CoinWithdrawalList.feature
+16:26:14.373 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690809974373
+16:26:14.404 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^CoinWithdrawalList$
+16:26:15.025 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:26:15.041 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:26:15.057 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:26:16.258 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:26:16.258 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:26:16.258 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+16:26:16.805 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:26:16.805 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:26:16.805 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:26:17.364 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:26:17.919 [main] INFO  com.intuit.karate - [print] {
+  "Data": {
+    "TotalAmount": 0.0,
+    "CustomerCoinWithdrawalDto": [
+    ]
+  },
+  "PageNumber": 1,
+  "Size": 25,
+  "DataCount": 0,
+  "StartDate": "2023-01-31T13:15:40.834Z",
+  "EndDate": "2023-07-31T13:15:40.835Z",
+  "Filters": [
+    {
+      "FilterType": 11,
+      "FilterValue": "29"
+    }
+  ],
+  "IsActive": true,
+  "Sort": null,
+  "Filter": null,
+  "CoinId": 0,
+  "CurrencyId": 0,
+  "CustomerCount": 0,
+  "LanguageCode": "tr"
+}
+ 
+16:26:18.405 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/CoinWithdrawalList.feature
+16:31:23.660 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690810283660
+16:31:23.692 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^CoinWithdrawalList$
+16:31:24.317 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:31:24.317 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:31:24.333 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:31:25.648 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:31:25.648 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:31:25.648 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+16:31:26.226 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:31:26.242 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:31:26.242 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:31:26.786 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:31:27.340 [main] INFO  com.intuit.karate - [print] {
+  "Data": {
+    "TotalAmount": 5011.01002300000000,
+    "CustomerCoinWithdrawalDto": [
+      {
+        "Id": "8f2fda74-e554-4fb4-b516-fd3311e7e107",
+        "RequestCode": "8474541",
+        "TxId": "fbe36c5e7692460d88ef6937e43e3334",
+        "Address": "0xef5235A9a993cb9424766b1dAa66E0c5433A25fd",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 90.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-07-31T11:34:28.167",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "a6376a8f-3084-431a-840d-ecab6ea7ee53",
+        "RequestCode": "4441856",
+        "TxId": "3026100aba2e4ec1b757d9fe91ce39ac",
+        "Address": "0x325AC5F9b56a821Cb497e3aFce5cE18BAa0F65b4",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 100.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-07-06T12:38:39.9",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "548dea5c-cf75-4d40-8bf2-e33085efe70d",
+        "RequestCode": "5165476",
+        "TxId": "dfc55cb3f69147d3a6d95ecdf8069295",
+        "Address": "0x325AC5F9b56a821Cb497e3aFce5cE18BAa0F65b4",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 90.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-07-06T12:36:13.367",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "41c25ac3-23ea-4205-af40-d38534e61b55",
+        "RequestCode": "8312774",
+        "TxId": "94e499ea34d64dec93a78404c59d329f",
+        "Address": "0x7393fBbB4cfa1D55cfb56bf4ebcFAb432258Fc99",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 40.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-06-13T13:40:29.9",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "a81ad3c9-e7bb-46f0-802a-bef84c051cb6",
+        "RequestCode": "3386831",
+        "TxId": "ef6dc86d42064b57ac85101117e160ce",
+        "Address": "0xe1334976f82CeE66d3fF400c9f384A403999e760",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 2790.00000000000000,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-24T11:48:44.397",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "d966d448-840e-402a-8308-80159c2a72cd",
+        "RequestCode": "1252737",
+        "TxId": "Removed!",
+        "Address": "0xd712302959f55f8254ABD709bbD82687573D7e7e",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 0.010023,
+        "Fee": 10.0,
+        "State": 4,
+        "CreateDate": "2023-02-14T15:40:51.317",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 5
+      },
+      {
+        "Id": "436d5330-b07b-45d6-90a6-eab8f8ef0f14",
+        "RequestCode": "4243183",
+        "TxId": "0x81af12e0894cfe16fc483f3a6e3867de96596823d3091443793e9ea1b78dae83",
+        "Address": "0x0Eb91400fbd6a6A77354810A45CA8C47488EDe67",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 290.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T15:40:01.62",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "779d1da2-2542-485d-b68d-3b8d76be7b38",
+        "RequestCode": "6231365",
+        "TxId": "282d3449d3994c17be606ade5f567fed",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 127.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T15:37:11.3",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "ecdee30a-28a1-4065-bb9c-04a57bedee88",
+        "RequestCode": "1335334",
+        "TxId": "Removed!",
+        "Address": "0x0Eb91400fbd6a6A77354810A45CA8C47488EDe67",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 190.0,
+        "Fee": 10.0,
+        "State": 4,
+        "CreateDate": "2023-02-14T14:44:07.33",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 5
+      },
+      {
+        "Id": "f9424842-5d24-4d3d-86ea-7b87cac20e89",
+        "RequestCode": "7352417",
+        "TxId": "0x713ff17489bf57362cec212f41e468b22638f176bbb1a809126d1931967109db",
+        "Address": "0x0Eb91400fbd6a6A77354810A45CA8C47488EDe67",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:40:07.633",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "4c3ca4b6-6f69-4e52-9943-f75511d52b5d",
+        "RequestCode": "5844354",
+        "TxId": "a99eb40f8d1346e4a6465a934f80509a",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:37:35.407",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "4cbca894-8d42-4f75-92ac-05f70b7bbd24",
+        "RequestCode": "3457785",
+        "TxId": "efa27e5de8a34e4cb75fe85b668303f4",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:37:16.287",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "15953a53-620b-4e15-9735-baf630280e73",
+        "RequestCode": "2116147",
+        "TxId": "1cdb7fc62a8042cd8ecfd12cc1bcc314",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:36:51.937",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "b70c6839-1d3b-495d-aebc-204da0a3f7d1",
+        "RequestCode": "7654673",
+        "TxId": "8bc2f9c500c84b5b9e48c83ef3557981",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:34:58.227",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "c7cd397d-5772-4b47-9920-6984d11d4436",
+        "RequestCode": "3141313",
+        "TxId": "66596b33fc2a47b18642df586a01fd5f",
+        "Address": "0x66a59969A853Bb6aD657278dcabA8fea0e0b3c59",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 91.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:33:13.25",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "ec0e4e71-42c4-43a5-952b-b7ac0fa7b934",
+        "RequestCode": "7878723",
+        "TxId": "470454d14e0a4a089382093d87e06eb6",
+        "Address": "0x66a59969A853Bb6aD657278dcabA8fea0e0b3c59",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 90.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:08:19.55",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "05eed754-d9db-4ebe-a8c2-0d631525dc11",
+        "RequestCode": "1256883",
+        "TxId": "f74826531513433e8497f22b92bc9b84",
+        "Address": "0x66a59969A853Bb6aD657278dcabA8fea0e0b3c59",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 113.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T13:59:04.203",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      }
+    ]
+  },
+  "PageNumber": 1,
+  "Size": 25,
+  "DataCount": 17,
+  "StartDate": "2023-01-31T13:30:55.586Z",
+  "EndDate": "2023-07-31T13:30:55.586Z",
+  "Filters": [
+    {
+      "FilterType": 11,
+      "FilterValue": "29"
+    }
+  ],
+  "IsActive": false,
+  "Sort": null,
+  "Filter": null,
+  "CoinId": 0,
+  "CurrencyId": 0,
+  "CustomerCount": 0,
+  "LanguageCode": "tr"
+}
+ 
+16:31:27.816 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/CoinWithdrawalList.feature
 15:16:36.116 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1690805796113
 15:16:36.147 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^Update Customer Coin Balance$
 15:16:37.137 [main] INFO  com.intuit.karate - karate.env system property was: null 
@@ -12582,3 +13014,3290 @@ src/test/java/caller/DBActions/DB.feature:7
 15:54:04.599 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
 15:54:06.334 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
 15:54:08.253 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/caller/DBActions/DB.feature
+15:01:06.287 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064066284
+15:01:06.307 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:01:07.066 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:07.068 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:01:07.086 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:01:08.407 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:01:08.407 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:01:08.416 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:01:08.936 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:01:08.936 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:01:08.936 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:01:09.477 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:01:10.396 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T14:10:24.437"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T14:10:24.71"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T14:10:30.44"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T14:10:33.503"
+  }
+]
+ 
+15:01:10.966 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:01:35.896 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064095894
+15:01:35.916 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^CoinGetWithdrawal$
+15:01:36.603 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:36.606 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:01:36.626 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:01:37.821 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:01:37.821 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:01:37.826 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:01:38.336 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:01:38.336 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:01:38.346 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:01:38.850 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:01:39.440 [main] INFO  com.intuit.karate - [print] {
+  "CoinBalancePrice": 1395627.9787894954500000000000,
+  "CoinChainNetworkList": [
+    {
+      "CoinChainNetworkId": 29,
+      "ChainNetworkName": "Bitci",
+      "ChainNetworkCode": "BRC20",
+      "DepositCommission": 0.0,
+      "DepositLowerLimit": 0,
+      "WithdrawalCommission": 10.0,
+      "WithdrawalLowerLimit": 0.0,
+      "DecimalSize": 0
+    }
+  ]
+}
+ 
+15:01:40.007 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/GetWithdrawal.feature
+15:02:07.449 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064127449
+15:02:07.481 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:02:08.186 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:02:08.198 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:02:08.216 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:02:09.386 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:02:09.386 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:02:09.386 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:02:09.904 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:02:09.906 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:02:09.906 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:02:10.466 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:02:11.493 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T14:10:24.437"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T14:10:24.71"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T14:10:30.44"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T14:10:33.503"
+  }
+]
+ 
+15:02:12.006 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:05:24.123 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064324123
+15:05:24.143 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:05:24.763 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:05:24.776 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:05:24.793 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:05:25.923 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:05:25.923 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:05:25.923 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:05:26.395 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:05:26.395 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:05:26.395 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:05:27.004 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:05:27.923 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T14:10:24.437"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T14:10:24.71"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T14:10:30.44"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T14:10:33.503"
+  }
+]
+ 
+15:05:27.923 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId==7)].CoinId===29
+syntax error, expected '==' for match
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:05:28.408 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:06:11.802 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064371798
+15:06:11.817 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:06:12.443 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:12.453 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:06:12.473 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:06:13.543 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:06:13.543 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:06:13.548 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:06:14.082 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:06:14.082 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:06:14.082 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:06:14.613 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:06:15.539 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T14:10:24.437"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T14:10:24.71"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T14:10:30.44"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T14:10:33.503"
+  }
+]
+ 
+15:06:15.543 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId=7)].CoinId == 29
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:06:16.023 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:07:50.862 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064470860
+15:07:50.886 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:07:51.571 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:07:51.579 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:07:51.601 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:07:52.759 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:07:52.759 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:07:52.762 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:07:53.294 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:07:53.295 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:07:53.298 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:07:53.982 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:07:54.951 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+* def list = get response[?(@.BaseAssetId=7)].CoinId
+Expected character: )
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+15:07:55.527 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:08:18.041 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064498039
+15:08:18.061 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:08:18.673 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:08:18.681 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:08:18.691 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:08:19.781 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:08:19.781 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:08:19.781 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:08:20.271 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:08:20.271 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:08:20.281 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:08:20.791 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:08:21.711 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+* def list = get response[?(@.BaseAssetId = 7)].CoinId
+Expected character: )
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+15:08:22.193 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:08:38.971 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064518965
+15:08:38.990 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:08:39.611 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:08:39.611 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:08:39.630 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:08:40.721 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:08:40.721 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:08:40.721 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:08:41.227 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:08:41.227 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:08:41.227 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:08:41.753 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:08:42.677 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+* def list = get response[?(@."BaseAssetId" = 7)].CoinId
+Expected character: )
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+15:08:43.166 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:08:57.223 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064537223
+15:08:57.240 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:08:57.860 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:08:57.865 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:08:57.880 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:08:58.925 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:08:58.930 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:08:58.930 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:08:59.401 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:08:59.401 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:08:59.411 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:08:59.950 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:09:00.901 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T14:10:24.437"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T14:10:24.71"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T14:10:30.44"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T14:10:33.503"
+  }
+]
+ 
+15:09:01.410 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:09:52.575 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064592575
+15:09:52.591 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:09:53.199 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:53.211 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:09:53.229 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:09:54.292 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:09:54.292 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:09:54.299 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:09:54.780 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:09:54.780 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:09:54.780 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:09:55.270 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:09:56.179 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+* def list = get response[?(@."BaseAssetId" = 7)]
+Expected character: )
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:13
+15:09:56.670 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:10:13.419 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064613409
+15:10:13.439 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:10:14.049 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:10:14.049 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:10:14.069 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:10:15.109 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:10:15.109 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:10:15.120 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:10:15.649 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:10:15.649 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:10:15.649 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:10:16.149 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:10:17.050 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T14:10:24.437"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T14:10:24.71"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T14:10:30.44"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T14:10:33.503"
+  }
+]
+ 
+15:10:17.062 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* def list = get response[?(@."BaseAssetId" = 7)]
+Expected character: )
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:10:17.549 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:10:29.779 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064629779
+15:10:29.802 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:10:30.419 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:10:30.422 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:10:30.439 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:10:31.501 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:10:31.501 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:10:31.509 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:10:32.039 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:10:32.039 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:10:32.043 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:10:32.519 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:10:33.427 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:10:33.429 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* def list = get response[?(@.BaseAssetId = 7)]
+Expected character: )
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:10:33.919 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:10:40.856 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064640854
+15:10:40.872 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:10:41.497 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:10:41.499 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:10:41.519 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:10:42.597 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:10:42.599 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:10:42.599 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:10:43.129 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:10:43.139 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:10:43.141 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:10:43.619 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:10:44.530 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:10:44.539 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  }
+]
+ 
+15:10:45.022 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:11:06.221 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064666221
+15:11:06.238 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:11:06.868 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:06.878 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:11:06.890 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:11:07.989 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:11:07.989 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:11:07.989 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:11:08.539 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:11:08.539 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:11:08.539 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:11:09.042 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:11:09.968 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:11:09.978 [main] INFO  com.intuit.karate - [print] [
+  29
+]
+ 
+15:11:10.458 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:12:04.418 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064724418
+15:12:04.440 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:12:05.058 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:12:05.058 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:12:05.078 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:12:06.138 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:12:06.138 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:12:06.143 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:12:06.628 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:12:06.628 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:12:06.628 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:12:07.128 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:12:08.044 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:12:08.048 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match  get response[?(@.BaseAssetId == 7)].CoinId==29
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:12:08.518 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:13:31.241 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064811241
+15:13:31.272 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:13:31.915 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:13:31.915 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:13:31.939 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:13:32.983 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:13:32.983 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:13:32.983 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:13:33.486 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:13:33.486 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:13:33.486 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:13:34.004 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:13:34.915 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:13:34.915 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match def list = get response[?(@.BaseAssetId == 7)].CoinId == 29
+js failed:
+>>>>
+01: def
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "def" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:13:35.401 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:13:49.435 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064829435
+15:13:49.450 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:13:50.063 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:13:50.063 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:13:50.085 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:13:51.194 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:13:51.194 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:13:51.194 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:13:51.728 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:13:51.728 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:13:51.743 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:13:52.247 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:13:53.173 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:13:53.173 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match def list = get response[?(@.BaseAssetId == 7)].[CoinId == 29]
+js failed:
+>>>>
+01: def
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "def" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:13:53.660 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:14:05.749 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064845749
+15:14:05.780 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:14:06.392 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:14:06.392 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:06.408 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:14:07.477 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:07.477 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:07.477 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:14:07.995 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:07.995 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:14:07.995 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:14:08.498 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:14:09.435 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:14:09.441 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match def list = get response[?(@.BaseAssetId == 7)].(CoinId == 29)
+js failed:
+>>>>
+01: def
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "def" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:14:09.927 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:14:25.480 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064865480
+15:14:25.491 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:14:26.103 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:14:26.119 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:26.135 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:14:27.203 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:27.203 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:27.203 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:14:27.706 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:27.706 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:14:27.706 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:14:28.208 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:14:29.118 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:14:29.118 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match  get response[?(@.BaseAssetId == 7)].(CoinId == 29)
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:14:29.591 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:14:35.640 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064875640
+15:14:35.655 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:14:36.283 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:14:36.283 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:36.308 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:14:37.666 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:37.666 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:37.682 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:14:38.184 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:38.184 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:14:38.184 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:14:38.655 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:14:39.535 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:14:39.551 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId == 7)].(CoinId == 29)
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:14:40.037 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:14:57.130 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064897130
+15:14:57.145 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:14:57.757 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:14:57.773 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:57.789 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:14:58.842 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:14:58.842 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:58.857 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:14:59.376 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:14:59.376 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:14:59.376 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:14:59.846 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:15:00.777 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:15:00.785 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId == 7)].[CoinId == 29]
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:15:01.278 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:15:58.161 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064958161
+15:15:58.176 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:15:58.804 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:15:58.804 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:15:58.820 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:15:59.903 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:15:59.903 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:15:59.903 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:16:00.403 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:00.403 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:00.419 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:16:00.906 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:01.818 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:16:01.818 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId == 7)].CoinId == 29
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:16:02.304 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:16:18.823 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064978823
+15:16:18.839 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:16:19.450 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:19.466 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:19.482 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:16:20.549 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:20.549 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:20.549 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:16:21.084 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:21.084 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:21.084 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:16:21.571 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:22.482 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:16:22.482 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId == 7)] == CoinId == 29
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:16:22.952 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:16:33.138 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691064993138
+15:16:33.169 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:16:33.781 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:33.781 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:33.797 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:16:34.865 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:34.865 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:34.865 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:16:35.383 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:35.383 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:35.383 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:16:35.871 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:36.782 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:16:36.797 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId == 7)] == [CoinId == 29]
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:16:37.268 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:16:49.106 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691065009106
+15:16:49.138 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:16:49.758 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:49.758 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:49.779 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:16:50.810 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:16:50.810 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:50.810 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:16:51.328 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:16:51.328 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:51.328 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:16:51.815 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:16:52.727 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:16:52.742 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+* match get response[?(@.BaseAssetId == 7)] == (CoinId == 29)
+js failed:
+>>>>
+01: get
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "get" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:14
+15:16:53.213 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:19:26.092 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691065166092
+15:19:26.123 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:19:26.751 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:19:26.751 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:19:26.767 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:19:28.212 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:19:28.212 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:19:28.212 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:19:28.792 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:19:28.792 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:19:28.792 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:19:29.422 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:19:30.646 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+15:19:30.661 [main] INFO  com.intuit.karate - [print] [
+  29
+]
+ 
+15:19:31.148 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:20:23.366 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691065223366
+15:20:23.382 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:20:23.994 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:24.009 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:20:24.025 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:20:25.122 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:20:25.122 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:20:25.122 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:20:25.655 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:20:25.655 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:20:25.655 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:20:26.142 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:20:27.089 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:15
+* match list == 29
+match failed: EQUALS
+  $ | data types don't match (LIST:NUMBER)
+  [29]
+  29
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:15
+15:20:27.563 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:20:55.912 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691065255912
+15:20:55.943 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:20:56.553 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:56.553 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:20:56.584 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:20:57.662 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:20:57.662 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:20:57.662 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:20:58.209 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:20:58.209 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:20:58.209 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:20:58.756 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:20:59.678 [main] ERROR com.intuit.karate - src/test/java/features/Ticker/GetCoinFavoriteList.feature:15
+* match list.CoinId == 29
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  29
+
+src/test/java/features/Ticker/GetCoinFavoriteList.feature:15
+15:21:00.173 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:22:31.666 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691065351666
+15:22:31.682 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:22:32.307 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:22:32.323 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:22:32.338 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:22:33.370 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:22:33.370 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:22:33.370 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:22:33.839 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:22:33.854 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:22:33.854 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:22:34.339 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:22:35.245 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  }
+]
+ 
+15:22:35.729 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+15:22:59.555 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691065379555
+15:22:59.571 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+15:23:00.207 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:00.207 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:23:00.222 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:23:01.238 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:23:01.238 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:23:01.238 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:23:01.738 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:23:01.738 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:23:01.738 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:23:02.207 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:23:03.129 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  }
+]
+ 
+15:23:03.613 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+16:02:59.283 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691067779283
+16:02:59.299 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+16:02:59.940 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:02:59.955 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:02:59.971 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:03:01.217 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:03:01.217 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:03:01.217 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+16:03:01.764 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:03:01.764 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:03:01.764 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:03:02.342 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:03:03.296 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  }
+]
+ 
+16:03:03.795 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+16:06:30.106 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691067990104
+16:06:30.112 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+16:06:30.753 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:06:30.753 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:06:30.768 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+16:06:32.091 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+16:06:32.091 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:06:32.091 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+16:06:32.638 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+16:06:32.638 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:06:32.638 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+16:06:33.231 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+16:06:34.281 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-03T15:10:19.35"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-03T15:10:19.47"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-03T15:10:21.307"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-03T15:10:22.123"
+  }
+]
+ 
+16:06:34.296 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.1897,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.15814443858724,
+    "Volume24H": 107421.05262414000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-03T14:21:07.68"
+  }
+]
+ 
+16:06:34.781 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
+12:06:07.427 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1691399167427
+12:06:07.458 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Ticker Get Coin Favorite List$
+12:06:08.327 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:06:08.343 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:06:08.358 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+12:06:09.893 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:06:09.893 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:06:09.908 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+12:06:11.097 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:06:11.097 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:06:11.097 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+12:06:12.360 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:06:13.980 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.19,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.0,
+    "Volume24H": 11242.10526311000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-07T11:21:38.31"
+  },
+  {
+    "Id": 22031940,
+    "BaseAssetId": 11,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 18,
+    "CoinCode": "CHFT",
+    "CoinName": "Crypto Holding Franc Token",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 10.52,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.743",
+    "Bid": 10.52,
+    "Ask": 10.72,
+    "ModifiedOn": "2023-08-07T11:16:43.64"
+  },
+  {
+    "Id": 220319387,
+    "BaseAssetId": 9,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 84,
+    "CoinCode": "USDT",
+    "CoinName": "Tether",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 19.425,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:18:09.613",
+    "Bid": 19.423,
+    "Ask": 19.425,
+    "ModifiedOn": "2023-08-07T11:16:43.86"
+  },
+  {
+    "Id": 220319388,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 9,
+    "RateState": 1,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 2008,
+    "CurrencyCode": "USDT",
+    "Price": 0.002111,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.767",
+    "Bid": 0.001956,
+    "Ask": 0.00215,
+    "ModifiedOn": "2023-08-07T11:16:44.097"
+  },
+  {
+    "Id": 220319572,
+    "BaseAssetId": 191,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 166,
+    "CoinCode": "CEEK",
+    "CoinName": "CEEK VR",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.651,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.707",
+    "Bid": 1.355,
+    "Ask": 1.651,
+    "ModifiedOn": "2023-08-07T11:16:47.937"
+  },
+  {
+    "Id": 220319660,
+    "BaseAssetId": 54,
+    "QuoteAssetId": 1,
+    "RateState": 1,
+    "CoinId": 192,
+    "CoinCode": "DELI",
+    "CoinName": "NFTDELI",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 1.0,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-03-24T16:54:00",
+    "Bid": 1.0,
+    "Ask": 0.0,
+    "ModifiedOn": "2023-08-07T11:16:49.19"
+  }
+]
+ 
+12:06:13.997 [main] INFO  com.intuit.karate - [print] [
+  {
+    "Id": 22031935,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 1,
+    "RateState": 2,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 1,
+    "CurrencyCode": "TRY",
+    "Price": 0.19,
+    "Open24H": 0.19,
+    "High24H": 0.19,
+    "Low24H": 0.1897,
+    "Change24H": 0.0,
+    "Volume24H": 11242.10526311000000,
+    "CreateDate": "2022-12-07T15:08:34",
+    "Bid": 0.19,
+    "Ask": 0.1254,
+    "ModifiedOn": "2023-08-07T11:21:38.31"
+  },
+  {
+    "Id": 220319388,
+    "BaseAssetId": 7,
+    "QuoteAssetId": 9,
+    "RateState": 1,
+    "CoinId": 29,
+    "CoinCode": "BITCI",
+    "CoinName": "Bitci",
+    "CurrencyId": 2008,
+    "CurrencyCode": "USDT",
+    "Price": 0.002111,
+    "Open24H": 0.0,
+    "High24H": 0.0,
+    "Low24H": 0.0,
+    "Change24H": 0.0,
+    "Volume24H": 0.0,
+    "CreateDate": "2023-01-25T17:43:27.767",
+    "Bid": 0.001956,
+    "Ask": 0.00215,
+    "ModifiedOn": "2023-08-07T11:16:44.097"
+  }
+]
+ 
+12:06:14.505 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Ticker/GetCoinFavoriteList.feature
