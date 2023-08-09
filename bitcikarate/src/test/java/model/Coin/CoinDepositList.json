@@ -1,0 +1,14 @@
+{
+  "IsActive": false,
+  "StartDate": "2022-08-09T10:27:59.773Z",
+  "Filters": [
+    {
+      "FilterType": 11,
+      "FilterValue": "29"
+    }
+  ],
+  "PageNumber": 1,
+  "Size": 200,
+  "EndDate": "2023-08-09T10:27:59.773Z",
+  "LanguageCode": "tr"
+}
