@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: CoinDepositList">
+  <component name="RunManager" selected="Cucumber Java.Scenario: CoinWithdrawalList islem gecmisi">
     <configuration name="Scenario: CoinDepositList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinDepositList.feature" />
@@ -69,15 +68,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: CoinWithdrawalList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: CoinWithdrawalList islem gecmisi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinWithdrawalList.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^CoinWithdrawalList$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinWithdrawalList$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CoinWithdrawalList" />
+      <option name="NAME_FILTER" value="^CoinWithdrawalList islem gecmisi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinWithdrawalList islem gecmisi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CoinWithdrawalList islem gecmisi" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +87,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Converter History List" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: CoinWithdrawalList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Converter/HistoryList.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinWithdrawalList.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Converter History List$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Converter History List$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Converter History List" />
+      <option name="NAME_FILTER" value="^CoinWithdrawalList$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinWithdrawalList$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CoinWithdrawalList" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: CoinWithdrawalList islem gecmisi" />
         <item itemvalue="Cucumber Java.Scenario: CoinDepositList" />
         <item itemvalue="Cucumber Java.Scenario: Ticker Get Coin Favorite List" />
         <item itemvalue="Cucumber Java.Scenario: CoinGetWithdrawal" />
         <item itemvalue="Cucumber Java.Scenario: CoinWithdrawalList" />
-        <item itemvalue="Cucumber Java.Scenario: Converter History List" />
       </list>
     </recent_temporary>
   </component>

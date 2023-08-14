@@ -9096,3 +9096,297 @@ src/test/java/features/Coin/CoinWithdrawalList.feature:16
 }
  
 15:51:32.821 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/CoinWithdrawalList.feature
+15:57:59.593 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1692017879592
+15:57:59.615 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^CoinWithdrawalList islem gecmisi$
+15:58:00.274 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:58:00.280 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:58:00.298 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+15:58:02.406 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+15:58:02.407 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:58:02.409 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+15:58:03.139 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+15:58:03.141 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:58:03.144 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+15:58:04.959 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+15:58:06.307 [main] INFO  com.intuit.karate - [print] {
+  "Data": {
+    "TotalAmount": 5011.01002300000000,
+    "CustomerCoinWithdrawalDto": [
+      {
+        "Id": "8f2fda74-e554-4fb4-b516-fd3311e7e107",
+        "RequestCode": "8474541",
+        "TxId": "fbe36c5e7692460d88ef6937e43e3334",
+        "Address": "0xef5235A9a993cb9424766b1dAa66E0c5433A25fd",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 90.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-07-31T11:34:28.167",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "a6376a8f-3084-431a-840d-ecab6ea7ee53",
+        "RequestCode": "4441856",
+        "TxId": "3026100aba2e4ec1b757d9fe91ce39ac",
+        "Address": "0x325AC5F9b56a821Cb497e3aFce5cE18BAa0F65b4",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 100.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-07-06T12:38:39.9",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "548dea5c-cf75-4d40-8bf2-e33085efe70d",
+        "RequestCode": "5165476",
+        "TxId": "dfc55cb3f69147d3a6d95ecdf8069295",
+        "Address": "0x325AC5F9b56a821Cb497e3aFce5cE18BAa0F65b4",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 90.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-07-06T12:36:13.367",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "41c25ac3-23ea-4205-af40-d38534e61b55",
+        "RequestCode": "8312774",
+        "TxId": "94e499ea34d64dec93a78404c59d329f",
+        "Address": "0x7393fBbB4cfa1D55cfb56bf4ebcFAb432258Fc99",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 40.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-06-13T13:40:29.9",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "a81ad3c9-e7bb-46f0-802a-bef84c051cb6",
+        "RequestCode": "3386831",
+        "TxId": "ef6dc86d42064b57ac85101117e160ce",
+        "Address": "0xe1334976f82CeE66d3fF400c9f384A403999e760",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 2790.00000000000000,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-24T11:48:44.397",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "d966d448-840e-402a-8308-80159c2a72cd",
+        "RequestCode": "1252737",
+        "TxId": "Removed!",
+        "Address": "0xd712302959f55f8254ABD709bbD82687573D7e7e",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 0.010023,
+        "Fee": 10.0,
+        "State": 4,
+        "CreateDate": "2023-02-14T15:40:51.317",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 5
+      },
+      {
+        "Id": "436d5330-b07b-45d6-90a6-eab8f8ef0f14",
+        "RequestCode": "4243183",
+        "TxId": "0x81af12e0894cfe16fc483f3a6e3867de96596823d3091443793e9ea1b78dae83",
+        "Address": "0x0Eb91400fbd6a6A77354810A45CA8C47488EDe67",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 290.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T15:40:01.62",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "779d1da2-2542-485d-b68d-3b8d76be7b38",
+        "RequestCode": "6231365",
+        "TxId": "282d3449d3994c17be606ade5f567fed",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 127.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T15:37:11.3",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "ecdee30a-28a1-4065-bb9c-04a57bedee88",
+        "RequestCode": "1335334",
+        "TxId": "Removed!",
+        "Address": "0x0Eb91400fbd6a6A77354810A45CA8C47488EDe67",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 190.0,
+        "Fee": 10.0,
+        "State": 4,
+        "CreateDate": "2023-02-14T14:44:07.33",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 5
+      },
+      {
+        "Id": "f9424842-5d24-4d3d-86ea-7b87cac20e89",
+        "RequestCode": "7352417",
+        "TxId": "0x713ff17489bf57362cec212f41e468b22638f176bbb1a809126d1931967109db",
+        "Address": "0x0Eb91400fbd6a6A77354810A45CA8C47488EDe67",
+        "Tag": null,
+        "Confirmations": 0,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:40:07.633",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "4c3ca4b6-6f69-4e52-9943-f75511d52b5d",
+        "RequestCode": "5844354",
+        "TxId": "a99eb40f8d1346e4a6465a934f80509a",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:37:35.407",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "4cbca894-8d42-4f75-92ac-05f70b7bbd24",
+        "RequestCode": "3457785",
+        "TxId": "efa27e5de8a34e4cb75fe85b668303f4",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:37:16.287",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "15953a53-620b-4e15-9735-baf630280e73",
+        "RequestCode": "2116147",
+        "TxId": "1cdb7fc62a8042cd8ecfd12cc1bcc314",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:36:51.937",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "b70c6839-1d3b-495d-aebc-204da0a3f7d1",
+        "RequestCode": "7654673",
+        "TxId": "8bc2f9c500c84b5b9e48c83ef3557981",
+        "Address": "0xf7c6e844044d4eb18a5a955b2f240693287B703f",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 200.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:34:58.227",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "c7cd397d-5772-4b47-9920-6984d11d4436",
+        "RequestCode": "3141313",
+        "TxId": "66596b33fc2a47b18642df586a01fd5f",
+        "Address": "0x66a59969A853Bb6aD657278dcabA8fea0e0b3c59",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 91.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:33:13.25",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "ec0e4e71-42c4-43a5-952b-b7ac0fa7b934",
+        "RequestCode": "7878723",
+        "TxId": "470454d14e0a4a089382093d87e06eb6",
+        "Address": "0x66a59969A853Bb6aD657278dcabA8fea0e0b3c59",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 90.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T14:08:19.55",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      },
+      {
+        "Id": "05eed754-d9db-4ebe-a8c2-0d631525dc11",
+        "RequestCode": "1256883",
+        "TxId": "f74826531513433e8497f22b92bc9b84",
+        "Address": "0x66a59969A853Bb6aD657278dcabA8fea0e0b3c59",
+        "Tag": "0",
+        "Confirmations": 100,
+        "Amount": 113.0,
+        "Fee": 10.0,
+        "State": 3,
+        "CreateDate": "2023-02-14T13:59:04.203",
+        "CoinName": "Bitci",
+        "CoinCode": "BITCI",
+        "CoinWithdrawalStatusEnumId": 4
+      }
+    ]
+  },
+  "PageNumber": 1,
+  "Size": 25,
+  "DataCount": 17,
+  "StartDate": "2023-01-31T13:30:55.586Z",
+  "EndDate": "2023-07-31T13:30:55.586Z",
+  "Filters": [
+    {
+      "FilterType": 11,
+      "FilterValue": "29"
+    }
+  ],
+  "IsActive": false,
+  "Sort": null,
+  "Filter": null,
+  "CoinId": 0,
+  "CurrencyId": 0,
+  "CustomerCount": 0,
+  "LanguageCode": "tr"
+}
+ 
+15:58:06.865 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/CoinWithdrawalList.feature
