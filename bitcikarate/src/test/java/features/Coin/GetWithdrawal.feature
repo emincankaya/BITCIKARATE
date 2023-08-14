@@ -10,4 +10,8 @@ Feature: Coin GetWithdrawal
       And param coinId = 29
       When method get
       Then status 200
-      * print response
+      * match response.CoinChainNetworkList[0].CoinChainNetworkId == 29
+      * match response.CoinChainNetworkList[0].ChainNetworkName == 'Bitci'
+      * match response.CoinChainNetworkList[0].ChainNetworkCode == 'BRC20'
+
+

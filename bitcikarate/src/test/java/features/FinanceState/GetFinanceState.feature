@@ -15,4 +15,17 @@ Feature: GetFinanceState
      * def tamSayi = Math.floor(bakiye)
      #* print tamSayi
      #* print response
+    @varlilarimbitcitrybalance
+  Scenario: VarliklarimBitciTryBalance
+    And path 'api/FinanceState/GetFinanceState'
+    And header apitoken = apiToken
+    And header authorization = generalToken
+    * def RequestBody = {"CurrencyId": 1}
+    And request RequestBody
+    When method post
+    Then status 200
+    * def bitcitrykullanilabirbakiye = get response.CustomerCoinBalanceDetailList[?(@.CoinName=="Bitci")].CurrentTotalBalance
+    * def tamsayibitcitrykullanilabirbakiye = Math.floor(bitcitrykullanilabirbakiye)
+
+
 

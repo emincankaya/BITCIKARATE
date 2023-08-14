@@ -16,3 +16,5 @@ Feature: CoinDepositList
      # * print depositList
       * match depositList.[*]State contains any [3]
       * match depositList.[*]CoinDepositStatusEnumId contains any [2]
+
+

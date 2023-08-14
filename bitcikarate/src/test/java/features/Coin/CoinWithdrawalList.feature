@@ -12,3 +12,5 @@ Feature: CoinWithdrawalList
       When method post
       Then status 200
       * print response
+      * def statusaktif = get response.Data.CustomerCoinWithdrawalDto[*].CoinWithdrawalStatusEnumId
+      * match statusaktif contains any [1, 2, 3]
