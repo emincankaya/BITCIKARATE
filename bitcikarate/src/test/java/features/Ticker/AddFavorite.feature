@@ -13,4 +13,4 @@ Feature: Add Favorite
     Then status 200
     * match response.IsSuccess == true
     * match response.Message == "Successful"
-    #* print response
+    * print response

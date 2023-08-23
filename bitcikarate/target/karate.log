@@ -9390,3 +9390,71 @@ src/test/java/features/Coin/CoinWithdrawalList.feature:16
 }
  
 15:58:06.865 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/CoinWithdrawalList.feature
+12:10:07.295 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1692781807293
+12:10:07.324 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^CoinGetAdress with has tag coin$
+12:10:08.088 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:10:08.095 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:10:08.117 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+12:10:09.843 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:10:09.844 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:10:09.845 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+12:10:10.504 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:10:10.505 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:10:10.511 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+12:10:11.469 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:10:12.365 [main] ERROR com.intuit.karate - src/test/java/features/Coin/GetAdress.feature:29
+* match response.IsSucced == true
+match failed: EQUALS
+  $ | actual path does not exist (STRING:BOOLEAN)
+  '#notpresent'
+  true
+
+src/test/java/features/Coin/GetAdress.feature:29
+12:10:12.958 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/GetAdress.feature
+12:11:31.125 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1692781891124
+12:11:31.147 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^CoinGetAdress with has tag coin$
+12:11:31.804 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:11:31.811 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:11:31.828 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+12:11:33.042 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:11:33.042 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:11:33.044 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+12:11:33.738 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:11:33.739 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:11:33.741 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+12:11:34.499 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:11:35.200 [main] ERROR com.intuit.karate - src/test/java/features/Coin/GetAdress.feature:28
+* match response.HasTag == 'true'
+match failed: EQUALS
+  $ | data types don't match (BOOLEAN:STRING)
+  true
+  'true'
+
+src/test/java/features/Coin/GetAdress.feature:28
+12:11:35.754 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/GetAdress.feature
+12:13:27.696 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1692782007695
+12:13:27.717 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^CoinGetAdress with has tag coin$
+12:13:28.388 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:28.396 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:13:28.413 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+12:13:29.630 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:13:29.631 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:13:29.632 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+12:13:30.392 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:13:30.392 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:13:30.395 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+12:13:31.757 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:13:32.953 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/GetAdress.feature
+12:13:41.676 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1692782021675
+12:13:41.698 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^CoinGetAdress with has tag coin$
+12:13:42.356 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:42.362 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:13:42.379 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 10: create_token_caller
+12:13:43.599 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller
+12:13:43.600 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:13:43.602 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CreateToken/CreateTokenFile.feature - call by tag at line 17: create_token_caller2
+12:13:44.316 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CreateToken/CreateTokenFile.feature@create_token_caller2
+12:13:44.317 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:13:44.318 [main] INFO  c.intuit.karate.core.FeatureRuntime - classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature - call by tag at line 11: coinbalancedetail_caller
+12:13:45.006 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature@coinbalancedetail_caller
+12:13:46.225 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/Coin/GetAdress.feature
