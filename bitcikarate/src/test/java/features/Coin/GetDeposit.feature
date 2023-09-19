@@ -26,7 +26,7 @@ Feature: GetDeposit
     * def  bitcitrybalancegetdeposit = response.CoinBalancePrice
     * def  bitcitrybalancegetdeposittamsayi = Math.floor(bitcitrybalancegetdeposit)
     * match bitcitrybalancegetdeposittamsayi == tamsayibitcitrykullanilabirbakiyevarliklarim
-    #Bu senaryoda Varlıklarım sayfasında bulunan Bitci Kullanılabilir TRY bakiyesi ile
+   # Bu senaryoda Varlıklarım sayfasında bulunan Bitci Kullanılabilir TRY bakiyesi ile
   #Coin çekme Bitci sayfasındaki kullanılabilir Bitci Try miktarı eşit mi diye kontrol sağlanmıştır.
 
 

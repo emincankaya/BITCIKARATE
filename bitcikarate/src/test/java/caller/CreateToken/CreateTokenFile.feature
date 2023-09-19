@@ -8,10 +8,17 @@
 
   @create_token_caller
   Scenario: Create Token
-    * def RequestBody = {"EmailOrPhone": "5451320507","Password": "","EPassword": "QUpBYlRCUVFQN3ZEdjJlc8XajYUjy8FzumC4cX3Q0So=","SmsMobileKey": "","AuthenticationCode": "","LanguageCode": "tr" }
+    * def RequestBody = read('classpath:model/AccountV2/Login.json')
+    * def result =  Java.type('helpers.PasswordEncp').easEncryptString()
+    * RequestBody.EPassword = result[0]
+    * RequestBody.TimeStamp = result[1]
     And request RequestBody
+    * print RequestBody
     When method post
+    * print response
     Then status 200
+
+
 
   @create_token_caller2
   Scenario: Create Token
