@@ -4,35 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="setnotification-getnotification-logout">
-      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/helpers/PasswordEncp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/helpers/TimeStamp.java" afterDir="false" />
+    <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CreateToken/CreateTokenFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CreateToken/CreateTokenFile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/GetDeposit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/GetDeposit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/model/AccountV2/Login.json" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/model/AccountV2/Login.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/GetAdress.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/GetAdress.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Ticker/AddFavorite.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Ticker/AddFavorite.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Ticker/DeleteFavorite.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Ticker/DeleteFavorite.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/karate-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/model/Coin/GetAdress.json" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/model/Coin/GetAdress.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/caller/CreateToken/CreateTokenFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/caller/CreateToken/CreateTokenFile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/AccountV2/Login.json" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/AccountV2/Login.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/karate-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2R6dwK1waEKsnGrgJhwgbBANqxI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,20 +40,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Create Token">
-    <configuration name="Feature: CreateTokenFile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: CoinGetAdress with has tag coin">
+    <configuration name="Scenario: CoinDepositList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CreateToken/CreateTokenFile.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinDepositList.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: CreateTokenFile" />
+      <option name="NAME_FILTER" value="^CoinDepositList$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinDepositList$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CoinDepositList" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -70,15 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Assets" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: CoinGetAdress with has tag coin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Account/Assets.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/GetAdress.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Assets$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Assets$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Assets" />
+      <option name="NAME_FILTER" value="^CoinGetAdress with has tag coin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinGetAdress with has tag coin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CoinGetAdress with has tag coin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -110,15 +102,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Create Token" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: CoinWithdrawalList islem gecmisi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CreateToken/CreateTokenFile.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinWithdrawalList.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Create Token$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Create Token$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Create Token" />
+      <option name="NAME_FILTER" value="^CoinWithdrawalList islem gecmisi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinWithdrawalList islem gecmisi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CoinWithdrawalList islem gecmisi" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -130,15 +121,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Kullanici Login Pozitif" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Ticker Get Coin Favorite List" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Ticker/GetCoinFavoriteList.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Kullanici Login Pozitif$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanici Login Pozitif$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Kullanici Login Pozitif" />
+      <option name="NAME_FILTER" value="^Ticker Get Coin Favorite List$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Ticker Get Coin Favorite List$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Ticker Get Coin Favorite List" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -152,10 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Create Token" />
-        <item itemvalue="Cucumber Java.Scenario: Kullanici Login Pozitif" />
-        <item itemvalue="Cucumber Java.Feature: CreateTokenFile" />
-        <item itemvalue="Cucumber Java.Scenario: Assets" />
+        <item itemvalue="Cucumber Java.Scenario: CoinGetAdress with has tag coin" />
+        <item itemvalue="Cucumber Java.Scenario: CoinWithdrawalList islem gecmisi" />
+        <item itemvalue="Cucumber Java.Scenario: CoinDepositList" />
+        <item itemvalue="Cucumber Java.Scenario: Ticker Get Coin Favorite List" />
         <item itemvalue="Cucumber Java.Scenario: CoinGetWithdrawal" />
       </list>
     </recent_temporary>
@@ -169,18 +160,6 @@
       <option name="presentableId" value="Default" />
       <updated>1686574701955</updated>
       <workItem from="1689252912534" duration="918000" />
-      <workItem from="1690296752298" duration="750000" />
-      <workItem from="1690362389998" duration="10150000" />
-      <workItem from="1690473882607" duration="4026000" />
-      <workItem from="1690785116047" duration="10602000" />
-      <workItem from="1691134923361" duration="8610000" />
-      <workItem from="1691564470184" duration="7633000" />
-      <workItem from="1692003384954" duration="7492000" />
-      <workItem from="1692599340718" duration="6978000" />
-      <workItem from="1692864988544" duration="9046000" />
-      <workItem from="1693823062437" duration="3216000" />
-      <workItem from="1694415474608" duration="10107000" />
-      <workItem from="1695109822396" duration="757000" />
     </task>
     <servers />
   </component>
@@ -197,6 +176,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
