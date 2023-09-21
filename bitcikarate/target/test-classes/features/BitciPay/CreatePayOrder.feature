@@ -75,7 +75,7 @@ Feature: User can create payment
 	* status 200
 	* match response.Message == 'Bu işlem için yeterli bakiyeniz bulunmamaktadır'
 
-  Scenario :Kullanıcı kendi ödeme koduna ödeme yapamaz
+  Scenario:Kullanıcı kendi ödeme koduna ödeme yapamaz
 	* call read('classpath:features/BitciPay/CreatePayOrder.feature@bitciPayOdeme')
 
 

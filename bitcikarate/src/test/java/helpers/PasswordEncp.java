@@ -21,7 +21,7 @@ public class PasswordEncp {
             Timestamp timestamp = new Timestamp(System.currentTimeMillis());
             Long timest = timestamp.getTime();
             String times = timest.toString();
-            String  password="Test123*";
+            String  password="Test1234*";
             String text=password+";"+ times;
 
             String paramKey ="KiGIWUgZU6G!EAQ0SyV3vdsMLISzJRHC";
