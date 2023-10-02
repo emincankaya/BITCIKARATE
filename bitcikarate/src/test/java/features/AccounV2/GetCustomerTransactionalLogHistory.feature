@@ -18,7 +18,7 @@ Feature: Get Customer Transaction Log History
      * match mesaj == "Şifre değiştirme işlemi onaylanmadı."
 
     Scenario: gecmis dogrulma(login)
-      * def login  = callonce read('classpath:features/AccounV2/Login.feature')
+      * def login  = callonce read('classpath:features/AccounV2/Login.feature@loginpozitif')
       When method get
       Then status 200
       * def mesaj = response[0].TransactionType

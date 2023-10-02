@@ -3,6 +3,7 @@ Feature: GetFinanceState
   Background:
     Given url baseURI
 
+    @bakiye
     Scenario: GetFinanceState
       And path 'api/FinanceState/GetFinanceState'
       And header apitoken = apiToken
@@ -13,7 +14,7 @@ Feature: GetFinanceState
       Then status 200
      * def bakiye = get response.CashMoneyBalanceList[?(@.CurrencyCode=="TRY")].Amount
      * def tamSayi = Math.floor(bakiye)
-     #* print tamSayi
+    # * print tamSayi
      #* print response
     @varlilarimbitcitrybalance
   Scenario: VarliklarimBitciTryBalance

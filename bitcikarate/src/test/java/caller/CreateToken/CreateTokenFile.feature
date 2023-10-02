@@ -15,7 +15,7 @@
     And request RequestBody
     * print RequestBody
     When method post
-    * print response
+  #  * print response
     Then status 200
 
 

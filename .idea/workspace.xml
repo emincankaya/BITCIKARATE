@@ -4,36 +4,163 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="new login-e password enc">
-      <change afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/TestRunner/testRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
+    <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aayushatharva_brotli4j_brotli4j_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aayushatharva_brotli4j_native_windows_x86_64_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_core_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_junit5_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_linecorp_armeria_armeria_1_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_siegmar_fastcsv_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_picocli_picocli_4_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_t12y_resemble_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_t12y_ssim_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_haproxy_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_aarch_64_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_linux_aarch_64_2_0_53_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_linux_x86_64_2_0_53_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_osx_aarch_64_2_0_53_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_osx_x86_64_2_0_53_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_windows_x86_64_2_0_53_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_53_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_linux_x86_64_4_1_79_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_graalvm_js_js_22_0_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_graalvm_js_js_scriptengine_22_0_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_graalvm_regex_regex_22_0_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_graalvm_sdk_graal_sdk_22_0_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_graalvm_truffle_truffle_api_22_0_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_32.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/bitcikarate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/bitcikarate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/BitciPay/CreatePayOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/BitciPay/CreatePayOrder.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/BitciPay/GetPay.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/BitciPay/Pay.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/BitciPay/Payments.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/helpers/PasswordEncp.java" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/helpers/PasswordEncp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/karate-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/karate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/BitciPay/CreatePayOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/BitciPay/CreatePayOrder.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/BitciPay/GetPay.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/BitciPay/Pay.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/BitciPay/Payments.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/target/test-classes/karate-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CreateToken/CreateTokenFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CreateToken/CreateTokenFile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinWithdrawalList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinWithdrawalList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/FinanceState/GetFinanceState.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/FinanceState/GetFinanceState.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Money/Withdraw.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Money/Withdraw.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-labs-logo-ring.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-progress-json.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary-json.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/karate-timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/Resemble.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/karate-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/karate-report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/vis.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate-reports/res/vis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/karate.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/caller/CreateOrder/CreateOrderCaller.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/caller/CreateToken/CreateTokenFile.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/ChangePassword.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCityList.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCityListByState.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCountryList.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetCustomerTransactionalLogHistory.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetDistrictList.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/GetStates.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/Getcustomerinfo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/AccounV2/Passwordchangeduration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/BitciPay/CreatePayOrder.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/BitciPay/createPayCode.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/GetMarketCurrencyCoinMatches/GetMarketCurrencyCoinMatches.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/Order/ActiveOrders.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/Order/AllActiveCustomerOrdersV2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/Order/Cancel.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/Order/CompletedOrdersV2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/Order/GetMarketCurrencyCoinMatches.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/Order/OrderCreate.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/features/Order/Trades.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/helpers/CalculatePrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/helpers/RandomNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/karate-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/AccountV2/ChangePassword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/AccountV2/Login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/BitciPay/CreatePayOrder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/BitciPay/CryptoPay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/CancelOrder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/CreateOrder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/Order/CompletedOrdersDetailV2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/target/test-classes/model/Order/CompletedOrdersV2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,16 +182,16 @@
       <recent name="C:\Users\LENOVO\IdeaProjects\BITCIKARATE1\bitcikarate\src\test\java\TestRunner" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testRunner.testParallel">
-    <configuration name="Scenario: CoinDepositList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: general spin">
+    <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinDepositList.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/Spin.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^CoinDepositList$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinDepositList$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CoinDepositList" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -76,15 +203,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: CoinGetAdress with has tag coin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Get States" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/GetAdress.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetStates.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^CoinGetAdress with has tag coin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinGetAdress with has tag coin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CoinGetAdress with has tag coin" />
+      <option name="NAME_FILTER" value="^Get States$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get States$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get States" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -96,34 +223,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: CoinWithdrawalList islem gecmisi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: general spin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinWithdrawalList.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^CoinWithdrawalList islem gecmisi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinWithdrawalList islem gecmisi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CoinWithdrawalList islem gecmisi" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: CoinWithdrawalList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinWithdrawalList.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/Spin.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^CoinWithdrawalList$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^CoinWithdrawalList$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CoinWithdrawalList" />
+      <option name="NAME_FILTER" value="^general spin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^general spin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: general spin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,29 +243,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testRunner.testParallel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: general wheeloffortune" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/wheeloffortune.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
+      <option name="NAME_FILTER" value="^general wheeloffortune$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^general wheeloffortune$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: general wheeloffortune" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestRunner.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestRunner" />
-      <option name="MAIN_CLASS_NAME" value="TestRunner.testRunner" />
-      <option name="METHOD_NAME" value="testParallel" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/wheeloffortune.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="bitcikarate" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testRunner.testParallel" />
-        <item itemvalue="Cucumber Java.Scenario: CoinWithdrawalList" />
-        <item itemvalue="Cucumber Java.Scenario: CoinGetAdress with has tag coin" />
-        <item itemvalue="Cucumber Java.Scenario: CoinWithdrawalList islem gecmisi" />
-        <item itemvalue="Cucumber Java.Scenario: CoinDepositList" />
+        <item itemvalue="Cucumber Java.Scenario: general spin" />
+        <item itemvalue="Cucumber Java.Scenario: general wheeloffortune" />
+        <item itemvalue="Cucumber Java.Scenario: Get States" />
+        <item itemvalue="Cucumber Java.Scenario: " />
+        <item itemvalue="Cucumber Java.Scenario:  (1)" />
       </list>
     </recent_temporary>
   </component>

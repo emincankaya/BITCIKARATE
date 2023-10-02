@@ -26,10 +26,10 @@ Feature: Withdraw
       Then status 200
       * match response.Message == "Çekim tutarınız sistemde tanımlı minimum çekim limitinden düşük olamaz."
       * match response.Success == false
-      #* print response
+      * print response
 
   Scenario:Withdraw bakiyenden fazlasi cekilmez
-    * def bakiyeOgrenme = call read('classpath:features/FinanceState/GetFinanceState.feature')
+    * def bakiyeOgrenme = call read('classpath:features/FinanceState/GetFinanceState.feature@bakiye')
     And path 'api/Money/Withdraw'
     And header apitoken = apiToken
     And header authorization = generalToken
@@ -40,4 +40,3 @@ Feature: Withdraw
     Then status 200
     * match response.Message == "Bu işlem için yeterli bakiyeniz bulunmamaktadır"
     * match response.Success == false
-    #* print response

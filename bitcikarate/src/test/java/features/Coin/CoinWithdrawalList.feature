@@ -2,7 +2,7 @@ Feature: CoinWithdrawalList
 
   Background:
     Given url baseURI
-
+@test
     Scenario: CoinWithdrawalList
       And path 'api/Coin/CoinWithdrawalList'
       And header apitoken = apiToken
@@ -14,7 +14,7 @@ Feature: CoinWithdrawalList
       * print response
       * def statusaktif = get response.Data.CustomerCoinWithdrawalDto[*].CoinWithdrawalStatusEnumId
       * match statusaktif contains any [1, 2, 3]
-
+  @test
   Scenario: CoinWithdrawalList islem gecmisi
     And path 'api/Coin/CoinWithdrawalList'
     And header apitoken = apiToken
