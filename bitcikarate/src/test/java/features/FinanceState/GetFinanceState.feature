@@ -27,6 +27,7 @@ Feature: GetFinanceState
     Then status 200
     * def bitcitrykullanilabirbakiye = get response.CustomerCoinBalanceDetailList[?(@.CoinName=="Bitci")].CurrentTotalBalance
     * def tamsayibitcitrykullanilabirbakiye = Math.floor(bitcitrykullanilabirbakiye)
+     # * print response
 
 
 

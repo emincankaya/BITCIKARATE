@@ -9,6 +9,7 @@ Feature: general wheeloffortune
     And header authorization = generalToken
     #And param CampaignId = 98
     When method get
+      * print response
     * if (responseStatus == 403) karate.abort()
     Then status 200
     * print response

@@ -21,6 +21,6 @@ Feature: CoinBalanceDetail
     And request RequestBody
     When method post
     Then status 200
-  #  * print response
+   #* print response
   #  * print RequestBody
 
