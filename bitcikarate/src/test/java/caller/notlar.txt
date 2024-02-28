@@ -1,0 +1,88 @@
+---  post ile seneryo yazmak  için----
+
+    Given url ...
+    And path ...
+    And header aouhorization = generalToken
+    And header apiToken = apiToken
+    * def ReguestBody = ...
+    And reguest ReguestBody
+    When method post
+    And status 200
+
+--- get ile seneryo yazmak  için----
+
+    Given url ...
+    And path ...
+    And header aouhorization = generalToken
+    And header apiToken = apiToken
+    When method get
+    And status 200
+
+    -----
+    Gerekli durumlarda And param... eklenir
+    -----
+
+---> yazdırmak için * print...
+---> test yapmak için * match...
+---> Bir veriyi tanımlayıp kaydetmek için * def...
+
+**************** get kullanımı *************
+
+get methodu kullanılarak listedeki istediğimiz bir veriyi alabiliriz
+
+   .... = get response.[?(@.Name=="Antalya")]    burada response listesindeki Name i Antalya olan veriyi çekmek için kullanılır
+
+   .... = get response.Status[*]   burada reponse listesindeki bütün statüsleri getirirmek için kullanılır
+
+*********************************************
+
+-------------------------------------------------------------------------------------
+  response veya kaydettiğimiz bir listedeki veriyi alabilmek için;
+  -> * def... = a[0].Id
+  -> response[0]..
+  -> response. ...
+---------------------------------------------------------------------------------------
+Başka bir class ı çalıştırmak için veya ordan veri alabilmek için;
+
+  * def ... = call read('classpath: ... ')
+  * def ... = callone read('classpath: ...')
+  çalıştırdığımız class ın belirli bir seneryosunu çalıştırmak istiyorsak öncelikle o seneryonun üzerine bir tag belirleriz daha sonra ;
+  * def .. = call read('classpath: ... @tag')
+----------------------------------------------------------------------------------------
+
+if kullananımı -->
+if (responseStatus==403)karate.abourt()   (responseStatus 403 olduğunda hata vermeden devam et)
+-----------------------------------------------------------------------------------------
+match yaparken  contains çeşitleri;
+-> contains any
+-> contains deep
+-> contains only
+
+örnek:
+* match bab contains any[4,5] ---> contains any 4 veya 5 biri olmalı anlamında, sadece bir taneside olursa sıkıntı olmaz
+* match bab contains deep [4, 5] ---> deep kullandığımızda  4, 5 den birer tane kesin olmalı
+* match bab contains only [4,5,5,4,4] ---> only kullandığımızda 4 ve 5 den ne kdar varsa hepsini yazmamız gerekiyor
+
+* match response.[*]State contains any[3]
+---------------------------------------------------------------------------------------------
+
+tamsayıya çevirme;
+
+.... = Match.floor(...)
+
+* def tamsayi=Match.floor(bakiye)
+* RequestBody.Amount = bakiyeOgrenme.tamsayi+100
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

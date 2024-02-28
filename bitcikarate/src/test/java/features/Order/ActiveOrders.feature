@@ -14,7 +14,7 @@ Feature: Active Orders
      # * def desiredValue = firstArray.Price
      # * print desiredValue
     * def Fiyat = response[0].Price
-    * print Fiyat
+    * print response
 
  # Scenario: Get Active Orders Positive
  #   And param pair = 'BITCI_TRY'

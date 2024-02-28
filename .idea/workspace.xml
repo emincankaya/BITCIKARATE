@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/caller/CoinBalanceDetail/CoinBlanceDetailCaller.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/ChangePassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/ChangePassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCustomerTransactionalLogHistory.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/FinanceState/GetFinanceState.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/FinanceState/GetFinanceState.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/wheeloffortune.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/wheeloffortune.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Order/ActiveOrders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Order/ActiveOrders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/model/AccountV2/ChangePassword.json" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/model/AccountV2/ChangePassword.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +55,16 @@
       <recent name="C:\Users\LENOVO\IdeaProjects\BITCIKARATE1\bitcikarate\src\test\java\TestRunner" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: bitci Coin">
-    <configuration name="Scenario: Coin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: WithdrawList IsActive= false">
+    <configuration name="Scenario: Kullanici Login Negatif Sifre" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinBalanceDetail.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Login.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Coin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Coin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Coin" />
+      <option name="NAME_FILTER" value="^Kullanici Login Negatif Sifre$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanici Login Negatif Sifre$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici Login Negatif Sifre" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -74,15 +76,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: bitci Coin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanici Login Pozitif" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/CoinBalanceDetail.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Login.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^bitci Coin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^bitci Coin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: bitci Coin" />
+      <option name="NAME_FILTER" value="^Kullanici Login Pozitif$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanici Login Pozitif$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici Login Pozitif" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Turkiye deki sehir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetCityList.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="bitcikarate" />
+      <option name="NAME_FILTER" value="^Turkiye deki sehir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Turkiye deki sehir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Turkiye deki sehir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: WithdrawList IsActive= false" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Money/WithdrawList.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="bitcikarate" />
+      <option name="NAME_FILTER" value="^WithdrawList IsActive\= false$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^WithdrawList IsActive\= false$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: WithdrawList IsActive= false" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -114,49 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: general wheeloffortune" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/wheeloffortune.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^general wheeloffortune$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^general wheeloffortune$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: general wheeloffortune" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testRunner.testParallel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bitcikarate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestRunner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestRunner" />
-      <option name="MAIN_CLASS_NAME" value="TestRunner.testRunner" />
-      <option name="METHOD_NAME" value="testParallel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: bitci Coin" />
-        <item itemvalue="Cucumber Java.Scenario: general wheeloffortune" />
+        <item itemvalue="Cucumber Java.Scenario: WithdrawList IsActive= false" />
         <item itemvalue="Cucumber Java.Scenario: general spin" />
-        <item itemvalue="JUnit.testRunner.testParallel" />
-        <item itemvalue="Cucumber Java.Scenario: Coin" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici Login Pozitif" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici Login Negatif Sifre" />
+        <item itemvalue="Cucumber Java.Scenario: Turkiye deki sehir" />
       </list>
     </recent_temporary>
   </component>
