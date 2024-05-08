@@ -9,5 +9,7 @@ Feature: webpageapi sliders
       And header apitoken = apiToken
       When method get
       Then status 200
+     ## * match response == '#[]'
+      * match response == '##[_ > 0]'
 
       
