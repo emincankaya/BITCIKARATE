@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Webpageapi/Sliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/features/Webpageapi/Sliders.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="C:\Users\LENOVO\IdeaProjects\BITCIKARATE1\bitcikarate\src\test\java\TestRunner" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Get InitialOffering Join Actions Summary">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Get Initial Offering Payment Transactions">
     <configuration name="Scenario: DepositList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Money/DepositList.feature" />
@@ -81,6 +80,26 @@
       <option name="NAME_FILTER" value="^Get Initial Offering Join Actions$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Initial Offering Join Actions$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Get Initial Offering Join Actions" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Get Initial Offering Payment Transactions" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Coin/GetInitialOfferingPaymentTransactions.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="bitcikarate" />
+      <option name="NAME_FILTER" value="^Get Initial Offering Payment Transactions$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Initial Offering Payment Transactions$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get Initial Offering Payment Transactions" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -132,33 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: general spin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/carkifelek/general/Spin.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^general spin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^general spin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: general spin" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Get Initial Offering Payment Transactions" />
         <item itemvalue="Cucumber Java.Scenario: Get InitialOffering Join Actions Summary" />
         <item itemvalue="Cucumber Java.Scenario: Get Initial Offering Join Actions" />
         <item itemvalue="Cucumber Java.Scenario: PasswordChangeDuration" />
         <item itemvalue="Cucumber Java.Scenario: DepositList" />
-        <item itemvalue="Cucumber Java.Scenario: general spin" />
       </list>
     </recent_temporary>
   </component>
