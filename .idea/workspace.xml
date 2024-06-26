@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f27b806-c385-4776-ae04-f720b4ffc3cf" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/bitcikarate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/bitcikarate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcikarate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcikarate/src/test/java/helpers/PasswordEncp.java" beforeDir="false" afterPath="$PROJECT_DIR$/bitcikarate/src/test/java/helpers/PasswordEncp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="C:\Users\LENOVO\IdeaProjects\BITCIKARATE1\bitcikarate\src\test\java\TestRunner" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Assets">
+  <component name="RunManager" selected="JUnit.testRunner.testParallel">
     <configuration name="Scenario: Assets" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Account/Assets.feature" />
@@ -82,15 +81,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Get Exchange Register Setting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: DepositList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetExchangeRegisterSetting.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/Money/DepositList.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Get Exchange Register Setting$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Exchange Register Setting$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get Exchange Register Setting" />
+      <option name="NAME_FILTER" value="^DepositList$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^DepositList$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: DepositList" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -102,15 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Get Sub Accounts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: DocumentRejectReasonEnum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetSubAccounts.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/DocumentRejectReasonEnum.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Get Sub Accounts$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Sub Accounts$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get Sub Accounts" />
+      <option name="NAME_FILTER" value="^DocumentRejectReasonEnum$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^DocumentRejectReasonEnum$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: DocumentRejectReasonEnum" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +121,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Get Sub Api Keys" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanici Login Pozitif" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetSubApiKeys.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/Login.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^Get Sub Api Keys$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Sub Api Keys$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get Sub Api Keys" />
+      <option name="NAME_FILTER" value="^Kullanici Login Pozitif$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanici Login Pozitif$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici Login Pozitif" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,33 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: GetSub ApiKeys" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/bitcikarate/src/test/java/features/AccounV2/GetSubApiKeys.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="testRunner.testParallel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bitcikarate" />
-      <option name="NAME_FILTER" value="^GetSub ApiKeys$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^GetSub ApiKeys$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: GetSub ApiKeys" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="TestRunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.testRunner" />
+      <option name="METHOD_NAME" value="testParallel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testRunner.testParallel" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici Login Pozitif" />
+        <item itemvalue="Cucumber Java.Scenario: DepositList" />
+        <item itemvalue="Cucumber Java.Scenario: DocumentRejectReasonEnum" />
         <item itemvalue="Cucumber Java.Scenario: Assets" />
-        <item itemvalue="Cucumber Java.Scenario: Get Sub Accounts" />
-        <item itemvalue="Cucumber Java.Scenario: Get Exchange Register Setting" />
-        <item itemvalue="Cucumber Java.Scenario: GetSub ApiKeys" />
-        <item itemvalue="Cucumber Java.Scenario: Get Sub Api Keys" />
       </list>
     </recent_temporary>
   </component>
