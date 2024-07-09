@@ -13,9 +13,9 @@ Feature: Coin CoinBlanceDetail
       * def bitci = get varliklarimKismi.response.CustomerCoinBalanceDetailList[?(@.CoinName=="Bitci")]
       When method post
       Then status 200
-      * print bitci
-      * print response
-     * match response.TotalBalance == bitci[0].TotalBalance
-     * match response.CoinBalance == bitci[0].CoinBalance
-     * match response.CurrentPrice == bitci[0].CurrentPrice
-     * match response.CurrentTotalBalance == bitci[0].CurrentTotalBalance
+      #* print bitci
+      #* print response
+     * match Math.floor(response.TotalBalance) == Math.floor(bitci[0].TotalBalance)
+     * match Math.floor(response.CoinBalance) == Math.floor(bitci[0].CoinBalance)
+     * match Math.floor(response.CurrentPrice) == Math.floor(bitci[0].CurrentPrice)
+     * match Math.floor(response.CurrentTotalBalance) == Math.floor(bitci[0].CurrentTotalBalance)

@@ -22,7 +22,7 @@ Feature: Order Create
  Scenario: Limit Buy Open Order
     * def RequestBody = read('classpath:model/CreateOrder.json')
     *  RequestBody.OrderType = 1
-    *  RequestBody.Price = CurrentPrice-0.001
+    *  RequestBody.Price = CurrentPrice-0.0001
     And request RequestBody
     When method post
     Then status 200
