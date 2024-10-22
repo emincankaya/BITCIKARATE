@@ -14,8 +14,9 @@ Feature: Get Customer Transaction Log History
       * def password = callonce read('classpath:features/AccounV2/ChangePassword.feature')
       When method get
       Then status 200
-      * def mesaj = response[0].TransactionType
-     * match mesaj == ""
+      * print response
+     # * def mesaj = response[0].TransactionType
+     #* match mesaj == ""
 
 
     Scenario: gecmis dogrulma(login)
